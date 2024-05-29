@@ -1,0 +1,52 @@
+<div>
+    <div class="profile">
+        <img src="{{section.settings.user_img |  image_url }}" width="300" height="350" alt="">
+        <h3>
+            {{section.settings.user_name}}
+        </h3>
+        <p>
+            {{section.settings.user_bio}}
+        </p>
+        <p>
+            {{settings.test_data}} hi
+        </p>
+    </div>
+    
+</div>
+{% schema %}
+{
+    "name": "Profile",
+    "presets": [
+        {
+            "name": "User Profile"
+            
+        }
+    ],
+    "settings": [
+        {
+        "type": "text",
+        "id": "title",
+        "label": "Profile Settings"
+        },
+        {
+            "type": "image_picker",
+            "id": "user_img",
+            "label": "User Photo"
+        },
+        {
+            "type": "text",
+            "id": "user_name",
+            "label": "User Name"
+        },
+        {
+            "type": "richtext",
+            "id": "user_bio",
+            "label": "User Information"
+        }
+
+
+    ]
+}
+
+{% endschema %}
+    
