@@ -450,8 +450,7 @@
         "announcement": {
           "settings": {
             "text": {
-              "label": "Text",
-              "default": "Välkommen till vår butik"
+              "label": "Text"
             },
             "text_alignment": {
               "label": "Textjustering",
@@ -512,8 +511,7 @@
       "name": "Kollage",
       "settings": {
         "heading": {
-          "label": "Rubrik",
-          "default": "Multimediakollage"
+          "label": "Rubrik"
         },
         "desktop_layout": {
           "label": "Layout för dator",
@@ -587,12 +585,7 @@
             },
             "description": {
               "label": "Alternativtext för video",
-<<<<<<< HEAD
               "info": "Beskriv videon för kunder som använder skärmläsare. [Mer information](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video-block)"
-=======
-              "info": "Beskriv videon för kunder som använder skärmläsare. [Mer information](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video-block)",
-              "default": "Beskriv videon"
->>>>>>> 651d170ec6b8d086816c4d497f4bc20ff705913f
             }
           },
           "name": "Video"
@@ -606,8 +599,7 @@
       "name": "Kollektionslista",
       "settings": {
         "title": {
-          "label": "Rubrik",
-          "default": "Produktserier"
+          "label": "Rubrik"
         },
         "image_ratio": {
           "label": "Bildförhållande",
@@ -662,12 +654,6 @@
       "name": "Kontaktformulär",
       "presets": {
         "name": "Kontaktformulär"
-      },
-      "settings": {
-        "title": {
-          "default": "Kontaktformulär",
-          "label": "Rubrik"
-        }
       }
     },
     "custom-liquid": {
@@ -686,8 +672,7 @@
       "name": "Blogginlägg",
       "settings": {
         "heading": {
-          "label": "Rubrik",
-          "default": "Bloggposter"
+          "label": "Rubrik"
         },
         "blog": {
           "label": "Blogg"
@@ -720,8 +705,7 @@
       "name": "Utvald produktserie",
       "settings": {
         "title": {
-          "label": "Rubrik",
-          "default": "Utvald produktserie"
+          "label": "Rubrik"
         },
         "collection": {
           "label": "Produktserie"
@@ -826,8 +810,7 @@
         "link_list": {
           "settings": {
             "heading": {
-              "label": "Rubrik",
-              "default": "Snabblänkar"
+              "label": "Rubrik"
             },
             "menu": {
               "label": "Meny",
@@ -839,12 +822,10 @@
         "text": {
           "settings": {
             "heading": {
-              "label": "Rubrik",
-              "default": "Rubrik"
+              "label": "Rubrik"
             },
             "subtext": {
-              "label": "Undertext",
-              "default": "<p>Dela kontaktinformation, butiksinformation och varumärkesinnehåll med dina kunder.</p>"
+              "label": "Undertext"
             }
           },
           "name": "Text"
@@ -870,8 +851,7 @@
           "label": "Visa e-postregistrering"
         },
         "newsletter_heading": {
-          "label": "Rubrik",
-          "default": "Prenumerera på e-post från oss"
+          "label": "Rubrik"
         },
         "header__1": {
           "info": "Prenumeranter som lagts till automatiskt till listan med ”accepterar marknadsföring”. [Mer information](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)",
@@ -1122,8 +1102,7 @@
         "heading": {
           "settings": {
             "heading": {
-              "label": "Rubrik",
-              "default": "Bildbanner"
+              "label": "Rubrik"
             }
           },
           "name": "Rubrik"
@@ -1131,8 +1110,7 @@
         "text": {
           "settings": {
             "text": {
-              "label": "Beskrivning",
-              "default": "Ge kunder information om bannerbild(er) eller innehåll i mallen."
+              "label": "Beskrivning"
             },
             "text_style": {
               "options__1": {
@@ -1153,8 +1131,7 @@
           "settings": {
             "button_label_1": {
               "label": "Första knappetikett",
-              "info": "Lämna etiketten tom eller dölj knappen.",
-              "default": "Knappetikett"
+              "info": "Lämna etiketten tom eller dölj knappen."
             },
             "button_link_1": {
               "label": "Första knapplänk"
@@ -1164,8 +1141,7 @@
             },
             "button_label_2": {
               "label": "Andra knappetikett",
-              "info": "Lämna etiketten tom eller dölj knappen.",
-              "default": "Knappetikett"
+              "info": "Lämna etiketten tom eller dölj knappen."
             },
             "button_link_2": {
               "label": "Andra knapplänk"
@@ -1275,8 +1251,7 @@
         "heading": {
           "settings": {
             "heading": {
-              "label": "Rubrik",
-              "default": "Bild med text"
+              "label": "Rubrik"
             }
           },
           "name": "Rubrik"
@@ -1284,8 +1259,7 @@
         "text": {
           "settings": {
             "text": {
-              "label": "Innehåll",
-              "default": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>"
+              "label": "Innehåll"
             },
             "text_style": {
               "label": "Textstil",
@@ -1303,8 +1277,7 @@
           "settings": {
             "button_label": {
               "label": "Knappetikett",
-              "info": "Lämna etiketten tom eller dölj knappen.",
-              "default": "Knappetikett"
+              "info": "Lämna etiketten tom eller dölj knappen."
             },
             "button_link": {
               "label": "Knapplänk"
@@ -1319,8 +1292,7 @@
           "name": "Rubrik",
           "settings": {
             "text": {
-              "label": "Text",
-              "default": "Lägg till en slogan"
+              "label": "Text"
             },
             "text_style": {
               "label": "Textstil",
@@ -1398,8 +1370,7 @@
               "content": "Ett butiksnamn och en beskrivning inkluderas med förhandsgranskningsbilden. [Läs mer](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
             },
             "text": {
-              "label": "Text",
-              "default": "Dela"
+              "label": "Text"
             }
           }
         }
@@ -1568,8 +1539,7 @@
       "name": "Kollektionslistsida",
       "settings": {
         "title": {
-          "label": "Rubrik",
-          "default": "Produktserier"
+          "label": "Rubrik"
         },
         "sort": {
           "label": "Sortera kollektioner efter:",
@@ -1645,8 +1615,7 @@
         "text": {
           "settings": {
             "text": {
-              "label": "Text",
-              "default": "Textblock"
+              "label": "Text"
             },
             "text_style": {
               "label": "Textstil",
@@ -1712,8 +1681,7 @@
               "content": "Ett butiksnamn och en beskrivning inkluderas med förhandsgranskningsbilden. [Läs mer](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
             },
             "text": {
-              "label": "Text",
-              "default": "Dela"
+              "label": "Text"
             }
           },
           "name": "Dela"
@@ -1722,8 +1690,7 @@
           "settings": {
             "heading": {
               "info": "Inkludera en rubrik som beskriver innehållet.",
-              "label": "Rubrik",
-              "default": "Rad som kan döljas"
+              "label": "Rubrik"
             },
             "content": {
               "label": "Radinnehåll"
@@ -1872,8 +1839,7 @@
         "popup": {
           "settings": {
             "link_label": {
-              "label": "Länketikett",
-              "default": "Text i popup-länk"
+              "label": "Länketikett"
             },
             "page": {
               "label": "Sida"
@@ -1911,8 +1877,7 @@
               "content": "Lägg till appen Search & Discovery för att välja tilläggsprodukter. [Mer information](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
-              "label": "Rubrik",
-              "default": "Passar bra med"
+              "label": "Rubrik"
             },
             "make_collapsible_row": {
               "label": "Visa som komprimerbar rad"
@@ -1975,8 +1940,7 @@
               "label": "Första bild"
             },
             "heading_1": {
-              "label": "Första rubrik",
-              "default": "Rubrik"
+              "label": "Första rubrik"
             },
             "icon_2": {
               "label": "Andra ikon"
@@ -1985,8 +1949,7 @@
               "label": "Andra bild"
             },
             "heading_2": {
-              "label": "Andra rubrik",
-              "default": "Rubrik"
+              "label": "Andra rubrik"
             },
             "icon_3": {
               "label": "Tredje ikon"
@@ -1995,8 +1958,7 @@
               "label": "Tredje bild"
             },
             "heading_3": {
-              "label": "Tredje rubrik",
-              "default": "Rubrik"
+              "label": "Tredje rubrik"
             }
           }
         },
@@ -2192,8 +2154,7 @@
       "name": "Multikolumn",
       "settings": {
         "title": {
-          "label": "Rubrik",
-          "default": "Multikolumn"
+          "label": "Rubrik"
         },
         "image_width": {
           "label": "Bildbredd",
@@ -2241,8 +2202,7 @@
           }
         },
         "button_label": {
-          "label": "Knappetikett",
-          "default": "Knappetikett"
+          "label": "Knappetikett"
         },
         "button_link": {
           "label": "Knapplänk"
@@ -2273,12 +2233,10 @@
               "label": "Bild"
             },
             "title": {
-              "label": "Rubrik",
-              "default": "Kolumn"
+              "label": "Rubrik"
             },
             "text": {
-              "label": "Beskrivning",
-              "default": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>"
+              "label": "Beskrivning"
             },
             "link_label": {
               "label": "Länketikett"
@@ -2308,8 +2266,7 @@
         "heading": {
           "settings": {
             "heading": {
-              "label": "Rubrik",
-              "default": "Prenumerera på e-post från oss"
+              "label": "Rubrik"
             }
           },
           "name": "Rubrik"
@@ -2317,8 +2274,7 @@
         "paragraph": {
           "settings": {
             "paragraph": {
-              "label": "Beskrivning",
-              "default": "<p>Var först med att få veta om nya produktserier och exklusiva erbjudanden.</p>"
+              "label": "Beskrivning"
             }
           },
           "name": "Underrubrik"
@@ -2378,8 +2334,7 @@
         "heading": {
           "settings": {
             "heading": {
-              "label": "Rubrik",
-              "default": "Prata om ditt varumärke"
+              "label": "Rubrik"
             }
           },
           "name": "Rubrik"
@@ -2387,8 +2342,7 @@
         "text": {
           "settings": {
             "text": {
-              "label": "Beskrivning",
-              "default": "<p>Dela information om ditt varumärke med dina kunder. Beskriv en produkt, gör tillkännagivanden eller välkomna kunder till din butik.</p>"
+              "label": "Beskrivning"
             }
           },
           "name": "Text"
@@ -2397,8 +2351,7 @@
           "settings": {
             "button_label_1": {
               "label": "Första knappetikett",
-              "info": "Lämna etiketten tom eller dölj knappen.",
-              "default": "Knappetikett"
+              "info": "Lämna etiketten tom eller dölj knappen."
             },
             "button_link_1": {
               "label": "Första knapplänk"
@@ -2423,8 +2376,7 @@
           "name": "Rubrik",
           "settings": {
             "text": {
-              "label": "Text",
-              "default": "Lägg till en slogan"
+              "label": "Text"
             },
             "text_style": {
               "label": "Textstil",
@@ -2469,8 +2421,7 @@
       "name": "Video",
       "settings": {
         "heading": {
-          "label": "Rubrik",
-          "default": "Video"
+          "label": "Rubrik"
         },
         "cover_image": {
           "label": "Omslagsbild"
@@ -2520,8 +2471,7 @@
           "name": "Text",
           "settings": {
             "text": {
-              "label": "Text",
-              "default": "Textblock"
+              "label": "Text"
             },
             "text_style": {
               "label": "Textstil",
@@ -2595,8 +2545,7 @@
               "content": "Ett butiksnamn och en beskrivning inkluderas med förhandsgranskningsbilden. [Mer information](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
             },
             "text": {
-              "label": "Text",
-              "default": "Dela"
+              "label": "Text"
             }
           }
         },
@@ -2762,8 +2711,7 @@
           "name": "Rubrik",
           "settings": {
             "heading": {
-              "label": "Rubrik",
-              "default": "Öppnar snart"
+              "label": "Rubrik"
             }
           }
         },
@@ -2771,8 +2719,7 @@
           "name": "Stycke",
           "settings": {
             "paragraph": {
-              "label": "Beskrivning",
-              "default": "<p>Var först med att få veta när vi kör igång.</p>"
+              "label": "Beskrivning"
             },
             "text_style": {
               "options__1": {
@@ -2847,8 +2794,7 @@
         "accessibility": {
           "content": "Tillgänglighet",
           "label": "Beskrivning bildspel",
-          "info": "Beskriv bildspelet för kunder som använder skärmläsare.",
-          "default": "Bildspel om vårt varumärke"
+          "info": "Beskriv bildspelet för kunder som använder skärmläsare."
         }
       },
       "blocks": {
@@ -2859,17 +2805,14 @@
               "label": "Bild"
             },
             "heading": {
-              "label": "Rubrik",
-              "default": "Bild i bildspel"
+              "label": "Rubrik"
             },
             "subheading": {
-              "label": "Underrubrik",
-              "default": "Berätta ditt varumärkes historia genom video och bilder"
+              "label": "Underrubrik"
             },
             "button_label": {
               "label": "Knappetikett",
-              "info": "Lämna etiketten tom eller dölj knappen.",
-              "default": "Knappetikett"
+              "info": "Lämna etiketten tom eller dölj knappen."
             },
             "link": {
               "label": "Knapplänk"
@@ -2952,8 +2895,7 @@
           "label": "Rubrik"
         },
         "heading": {
-          "label": "Rubrik",
-          "default": "Innehåll som kan döljas"
+          "label": "Rubrik"
         },
         "heading_alignment": {
           "label": "Rubriklinjering",
@@ -3021,8 +2963,7 @@
           "settings": {
             "heading": {
               "info": "Inkludera en rubrik som beskriver innehållet.",
-              "label": "Rubrik",
-              "default": "Rad som kan döljas"
+              "label": "Rubrik"
             },
             "row_content": {
               "label": "Radinnehåll"
@@ -3209,12 +3150,7 @@
           "label": "Antalet kolumner på skrivbordet"
         },
         "paragraph__1": {
-<<<<<<< HEAD
           "content": "Dynamiska rekommendationer använder order- och produktinformation för att ändras och förbättras över tid. [Mer information](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
-=======
-          "content": "Dynamiska rekommendationer använder order- och produktinformation för att ändras och förbättras över tid. [Mer information](https://help.shopify.com/themes/development/recommended-products)",
-          "default": "Du kanske också gillar"
->>>>>>> 651d170ec6b8d086816c4d497f4bc20ff705913f
         },
         "header__2": {
           "content": "Produktkort"
@@ -3387,20 +3323,16 @@
               "label": "Bild"
             },
             "caption": {
-              "label": "Rubrik",
-              "default": "Rubrik"
+              "label": "Rubrik"
             },
             "heading": {
-              "label": "Rubrik",
-              "default": "Rad"
+              "label": "Rubrik"
             },
             "text": {
-              "label": "Text",
-              "default": "<p>Para ihop text med en bild för att ge fokus åt vald produkt, produktserie eller blogginlägg. Lägg till information om tillgänglighet, stil eller tillhandahåll en recension.</p>"
+              "label": "Text"
             },
             "button_label": {
-              "label": "Knappetikett",
-              "default": "Knappetikett"
+              "label": "Knappetikett"
             },
             "button_link": {
               "label": "Knapplänk"
