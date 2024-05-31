@@ -2,9 +2,9 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/BtlmodzLogo.png",
     "logo_width": 180,
-    "type_header_font": "assistant_n4",
+    "type_header_font": "bodoni_poster_n9",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "bauer_bodoni_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -101,7 +101,7 @@
     "brand_description": "<p><\/p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/btl.modz\/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -138,12 +138,12 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#000000",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "text": "#ffffff",
+          "button": "#ffffff",
+          "button_label": "#000000",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       },
@@ -171,7 +171,7 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#121212",
+          "background": "#000000",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
