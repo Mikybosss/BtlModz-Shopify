@@ -1,0 +1,129 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_qQAziH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wJgfi3": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Me",
+            "heading_size": "h1"
+          }
+        },
+        "text_Wbgpcn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>I'm Adam, a Canadian artist driven by a deep reverence for the beauty found in unexpected places. For over 5 years, I've been honing my craft of transforming discarded bottles into captivating works of art. My journey began with a fascination for the interplay of light and glass, and it has evolved into a passion for repurposing brokenness into beauty. Each piece I create is a testament to the transformative power of art and the resilience of the human spirit.<br\/><\/strong><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wJgfi3",
+        "text_Wbgpcn"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GSPxBtlModz.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_EWgcVW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yHFn7A": {
+          "type": "column",
+          "settings": {
+            "title": "What I Offer:",
+            "text": "<p><strong>Step into my gallery and embark on a journey of discovery. Here, broken bottles are not just fragments of glass; they are the building blocks of imagination. From intricate mosaics that shimmer in the sunlight to frames that evoke emotions and stories, my creations offer a kaleidoscope of colours, textures, and meanings. Whether you're seeking a statement piece for your home or a unique gift that speaks volumes, my broken bottle art promises to captivate and inspire.<br\/><\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_w7DCDU": {
+          "type": "column",
+          "settings": {
+            "title": "Why Choose Me:",
+            "text": "<p><strong>What sets my art apart is not just the medium, but the message woven into every piece. By breathing new life into discarded bottles, I strive to spark conversations about sustainability, resilience, and the inherent beauty of imperfection. Each artwork is a testament to the potential for transformation, reminding us that even in our brokenness, we possess the power to create something extraordinary. When you choose one of my creations, you're not just acquiring a piece of art; you're investing in a story of renewal and hope.<br\/><\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xWPJE7": {
+          "type": "column",
+          "settings": {
+            "title": "Let's Connect:",
+            "text": "<p><strong>Thank you for embarking on this journey through the world of broken bottle art with me. Whether you're a fellow artist, an admirer of unique craftsmanship, or simply curious about the stories behind the shattered glass, I invite you to explore further. Connect with me to inquire about commissions, learn about upcoming exhibitions, or simply share your thoughts and reflections. Together, let's celebrate the beauty of resilience and the endless possibilities that emerge from embracing our brokenness.<br\/><\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PE7RxQ": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_yHFn7A",
+        "column_w7DCDU",
+        "column_xWPJE7",
+        "column_PE7RxQ"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_form_PRYpYb": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_qQAziH",
+    "multicolumn_EWgcVW",
+    "contact_form_PRYpYb"
+  ]
+}
