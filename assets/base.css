@@ -3454,3 +3454,8 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+/* Miky CSS */
+#frame-size-error{
+  color: gold;
+  font-size: 18px;
+}

@@ -97,30 +97,83 @@
           {%- endif -%}
         </div>
       </div>
-      <div class="field">
-          <input
-            class="field__input"
-            autocomplete="Frame Size"
-            type="text"
-            id="ContactForm-frame-size"
-            name="contact[Frame Size]"
-            value=""
-            placeholder="{{ 'templates.contact.form.name' | t }}"
-          >
-          <label class="field__label" for="ContactForm-name">Frame Size</label>
-        </div>
+      <div class="contact__fields">
         <div class="field">
-          <input
-            class="field__input"
-            autocomplete="Frame Color"
-            type="text"
-            id="ContactForm-frame-color"
-            name="contact[Frame Color]"
-            value=""
-            placeholder="{{ 'templates.contact.form.name' | t }}"
-          >
-          <label class="field__label" for="ContactForm-name">Frame Color</label>
-        </div>
+            <label class="field__label" for="size">Frame Size:</label>
+            <select id="frame-size"style="font-size: inherit;" class="select__select"  name="size" placeholder="Frame Size" required>
+                <option selected="" disabled="" required="" value="">Frame Size:</option>
+                <option value="12x16">12x16</option>
+                <option value="16x20">16x20</option>
+                <option value="19x27">19x27</option>
+                <option value="24x35">24x35</option>
+                <option value="30x40">30x40</option>
+            </select>
+            </div>
+            <div class="field">
+            <label class="field__label" for="size">Frame Color:</label>
+            <select style="font-size: inherit;" class="select__select"  name="size" placeholder="Frame Color" required>
+                <option selected="" disabled="" required="" value="">Frame Color:</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="gold">Gold</option>
+            </select>
+            </div>
+      </div>
+
+      <div class="contact__fields">
+        <div class="field">
+            <label class="field__label" for="base-colour">Background Base Colour:</label>
+            <select id="base-colour" name="base-colour" style="font-size: inherit;" class="select__select" placeholder="Frame Size" required>
+                <option selected="" disabled="" required="" value="">Background Base Colour:</option>
+                <option value="white">White</option>
+                <option value="black">Black</option>
+            </select>
+            </div>
+            <div class="field">              
+            <!-- Background Base Colour -->
+            <label class="field__label" for="secondary-colour">Background Secondary Colour ($25 extra):</label>
+            <select id="secondary-colour" name="secondary-colour" style="font-size: inherit;" class="select__select" placeholder="Frame Size" required>
+                <option selected="" disabled="" required="" value="">Background Secondary Colour ($25 extra):</option>
+                <option value="" >None</option>
+                <option value="blue">Blue</option>
+                <option value="gold">Gold</option>
+                <option value="silver">Silver</option>
+                <option value="red">Red</option>
+                <option value="orange">Orange</option>
+                <option value="purple">Purple</option>
+                <option value="brown">Brown</option>
+                <option value="white">White</option>
+                <option value="black">Black</option>
+                <option value="green">Green</option>
+                <option value="turquoise">Turquoise</option>
+                <option value="pink">Pink</option>
+            </select>
+            </div>
+      </div>
+      
+      <div class="contact__fields">
+        <div class="field">
+            <label class="field__label" for="addons">Background Add Ons ($25 extra):</label>
+            <select id="addons" style="font-size: inherit;" class="select__select"  name="addons" placeholder="Background Addons" required>
+                <option selected="" disabled="" required="" value="">Background Add Ons ($25 extra):</option>
+                <option value="">None</option>
+                <option value="money-bills">Money Bills</option>
+                <option value="paint">Paint</option>
+                <option value="spray-paint">Spray Paint</option>
+            </select>
+            </div>
+            <div class="field">              
+            <!-- Background Base Colour -->
+            <label class="field__label" for="extra-bottle">Extra Bottle Option ($50 extra):</label>
+            <select  id="extra-bottle" style="font-size: inherit;" class="select__select"  name="extra-bottle" placeholder="Extra Bottle" required>
+                <option selected="" disabled="" required="" value="">Extra Bottle Option ($50 extra):</option>
+                <option value="yes">YES</option>
+                <option value="no">NO</option>
+                </select>  
+            </div>
+                 
+      </div>
+      <span id="frame-size-error">The extra bottle option is only available for frames sized 19x27 and up.</span> 
         <div class="field">
         <textarea
           rows="10"
@@ -132,21 +185,8 @@
           {{- form.body -}}
         </textarea>
         <label class="form__label field__label" for="ContactForm-body">
-          Bottles
+            Special Inquiries for Add Ons:
         </label>
-      </div>
-      <div class="field">
-        <input
-          type="tel"
-          id="ContactForm-phone"
-          class="field__input"
-          autocomplete="tel"
-          name="contact[{{ 'templates.contact.form.phone' | t }}]"
-          pattern="[0-9\-]*"
-          value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
-          placeholder="{{ 'templates.contact.form.phone' | t }}"
-        >
-        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
       <div class="contact__button">
         <button type="submit" class="button">
@@ -156,7 +196,27 @@
     {%- endform -%}
   </div>
 </div>
+    <script>
+        function updateExtraBottleOption() {
+            const sizeSelect = document.getElementById('frame-size');
+            const extraBottleSelect = document.getElementById('extra-bottle');
+            const sizeValue = sizeSelect.value;
+            const sizeError = document.getElementById('frame-size-error');
 
+            if (sizeValue === '19x27' || sizeValue === '24x35' || sizeValue === '30x40') {
+                extraBottleSelect.disabled = false;
+                extraBottleSelect.value = 'no'
+                sizeError.hidden = true;
+            } else {
+                extraBottleSelect.disabled = true;
+                extraBottleSelect.value = " ";
+                sizeError.hidden = false;
+            }
+        }
+        document.getElementById('frame-size').addEventListener('change', updateExtraBottleOption);
+        // Initial check
+        updateExtraBottleOption();
+    </script>
 {% schema %}
 {
   "name": "Customizeable Frame",
