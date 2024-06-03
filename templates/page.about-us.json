@@ -109,6 +109,66 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_UDzFUK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4D36ph": {
+          "type": "heading",
+          "settings": {
+            "heading": "<a href=\"https:\/\/www.instagram.com\/btl.modz\/\" target=\"_blank\" title=\"Instagram | BtlModz\">@BtlModz<\/a>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4D36ph"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Insta_Icon_06ec8938-a76d-40d6-a030-d91c9572262e.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_xa6Epm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_97ABDU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<a href=\"https:\/\/www.tiktok.com\/@btlmodz\" title=\"Tiktok | BtlModz\">@BtlModz<\/a>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_97ABDU"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/vecteezy_tiktok-png-icon_16716485.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "contact_form_PRYpYb": {
       "type": "contact-form",
       "settings": {
@@ -124,6 +184,8 @@
     "main",
     "image_with_text_qQAziH",
     "multicolumn_EWgcVW",
+    "image_with_text_UDzFUK",
+    "image_with_text_xa6Epm",
     "contact_form_PRYpYb"
   ]
 }
