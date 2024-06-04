@@ -3459,3 +3459,6 @@ details-disclosure > details {
   color: gold;
   font-size: 18px;
 }
+#paint-color-div{
+  display: none;
+}
