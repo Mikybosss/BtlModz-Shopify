@@ -13,9 +13,9 @@
       "settings": {
         "title": "Canvas",
         "heading_size": "h0",
-        "description": "<h2>𝐵𝓇𝑜𝓀𝑒𝓃 𝒷𝑜𝓉𝓉𝓁𝑒 𝒶𝓇𝓉<\/h2>",
+        "description": "<p><strong>Please note that each of our frames is a one-of-a-kind piece of art.<\/strong><\/p><p><strong>Natural variations mean no two are exactly alike, but all share the same exceptional quality and beauty.<\/strong><\/p>",
         "show_description": false,
-        "description_style": "body",
+        "description_style": "uppercase",
         "collection": "canvas",
         "products_to_show": 12,
         "columns_desktop": 4,

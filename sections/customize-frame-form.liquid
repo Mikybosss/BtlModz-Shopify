@@ -131,9 +131,9 @@
             </div>
             <div class="field">              
             <!-- Background Base Colour -->
-            <label class="field__label" for="secondary-colour">Background Secondary Colour ($25 extra):</label>
+            <label class="field__label" for="secondary-colour">Background Secondary Colour (+$25):</label>
             <select id="secondary-colour" name="contact[Secondary Color]" style="font-size: inherit;" class="select__select" placeholder="Frame Size" required>
-                <option selected="" disabled="" required="" value="">Background Secondary Colour ($25 extra):</option>
+                <option selected="" disabled="" required="" value="">Background Secondary Colour (+$25):</option>
                 <option value="" >None</option>
                 <option value="blue">Blue</option>
                 <option value="gold">Gold</option>
@@ -153,9 +153,9 @@
       
       <div class="contact__fields">
         <div class="field">
-            <label class="field__label" for="addons">Background Add Ons ($25 extra):</label>
+            <label class="field__label" for="addons">Background Add Ons (+$25):</label>
             <select id="addons" style="font-size: inherit;" class="select__select"  name="contact[Addons]" placeholder="Background Addons" required>
-                <option selected="" disabled="" required="" value="Addon">Background Add Ons ($25 extra):</option>
+                <option selected="" disabled="" required="" value="Addon">Background Add Ons (+$25):</option>
                 <option value="">None</option>
                 <option value="money-bills">Money Bills</option>
                 <option value="paint">Paint</option>
@@ -179,9 +179,9 @@
             </div>
             <div class="field">              
             <!-- Background Base Colour -->
-            <label class="field__label" for="extra-bottle">Extra Bottle Option ($50 extra):</label>
+            <label class="field__label" for="extra-bottle">Extra Bottle Option (+$50):</label>
             <select  id="extra-bottle" style="font-size: inherit;" class="select__select"  name="contact[Extra bottle]" placeholder="Extra Bottle" required>
-                <option selected="" disabled="" required="" value="">Extra Bottle Option ($50 extra):</option>
+                <option selected="" disabled="" required="" value="">Extra Bottle Option (+$50):</option>
                 <option value="yes">YES</option>
                 <option value="no">NO</option>
                 </select>  
@@ -249,7 +249,7 @@
             const paintColor = document.getElementById('paint-color-div');
             if(addSelector == 'paint' || addSelector == 'spray-paint')
             {
-              paintColor.style.display = 'inline';
+              paintColor.style.display = 'block';
             }else{
               paintColor.style.display = 'none';
             }

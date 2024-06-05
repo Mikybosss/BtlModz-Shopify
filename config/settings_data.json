@@ -4,7 +4,7 @@
     "logo_width": 160,
     "type_header_font": "bodoni_poster_n9",
     "heading_scale": 100,
-    "type_body_font": "bauer_bodoni_n4",
+    "type_body_font": "antique_olive_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -136,8 +136,8 @@
 
     ],
     "blocks": {
-      "7570552984445421165": {
-        "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }

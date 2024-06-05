@@ -1,5 +1,27 @@
 {
   "sections": {
+    "rich_text_PGwniz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ijfkQA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Please note each of our frames is a one-of-a-kind piece of art. <\/strong><\/p><p><strong>No two are exactly alike, but all share the same exceptional quality and beauty.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_ijfkQA"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -34,6 +56,7 @@
     }
   },
   "order": [
+    "rich_text_PGwniz",
     "cart-items",
     "cart-footer"
   ]

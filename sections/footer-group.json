@@ -2,6 +2,22 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "1717518589cf2f834d": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_Lpd3PK": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_Lpd3PK"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -21,6 +37,7 @@
     }
   },
   "order": [
+    "1717518589cf2f834d",
     "footer"
   ]
 }
