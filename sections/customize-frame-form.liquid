@@ -100,7 +100,7 @@
       <div class="contact__fields">
         <div class="field">
             <label class="field__label" for="size">Frame Size:</label>
-            <select id="frame-size"style="font-size: inherit;" class="select__select"  name="size" placeholder="Frame Size" required>
+            <select id="frame-size"style="font-size: inherit;" class="select__select"  name="contact[Frame Size]" placeholder="Frame Size" required>
                 <option selected="" disabled="" required="" value="">Frame Size:</option>
                 <option value="12x16">12x16</option>
                 <option value="16x20">16x20</option>
@@ -111,7 +111,7 @@
             </div>
             <div class="field">
             <label class="field__label" for="size">Frame Color:</label>
-            <select style="font-size: inherit;" class="select__select"  name="size" placeholder="Frame Color" required>
+            <select style="font-size: inherit;" class="select__select"  name="contact[Frame Color]" placeholder="Frame Color" required>
                 <option selected="" disabled="" required="" value="">Frame Color:</option>
                 <option value="black">Black</option>
                 <option value="white">White</option>
@@ -123,7 +123,7 @@
       <div class="contact__fields">
         <div class="field">
             <label class="field__label" for="base-colour">Background Base Colour:</label>
-            <select id="base-colour" name="base-colour" style="font-size: inherit;" class="select__select" placeholder="Frame Size" required>
+            <select id="base-colour" name="contact[Base Color]" style="font-size: inherit;" class="select__select" placeholder="Frame Size" required>
                 <option selected="" disabled="" required="" value="">Background Base Colour:</option>
                 <option value="white">White</option>
                 <option value="black">Black</option>
@@ -132,7 +132,7 @@
             <div class="field">              
             <!-- Background Base Colour -->
             <label class="field__label" for="secondary-colour">Background Secondary Colour ($25 extra):</label>
-            <select id="secondary-colour" name="secondary-colour" style="font-size: inherit;" class="select__select" placeholder="Frame Size" required>
+            <select id="secondary-colour" name="contact[Secondary Color]" style="font-size: inherit;" class="select__select" placeholder="Frame Size" required>
                 <option selected="" disabled="" required="" value="">Background Secondary Colour ($25 extra):</option>
                 <option value="" >None</option>
                 <option value="blue">Blue</option>
@@ -154,7 +154,7 @@
       <div class="contact__fields">
         <div class="field">
             <label class="field__label" for="addons">Background Add Ons ($25 extra):</label>
-            <select id="addons" style="font-size: inherit;" class="select__select"  name="addons" placeholder="Background Addons" required>
+            <select id="addons" style="font-size: inherit;" class="select__select"  name="contact[Addons]" placeholder="Background Addons" required>
                 <option selected="" disabled="" required="" value="Addon">Background Add Ons ($25 extra):</option>
                 <option value="">None</option>
                 <option value="money-bills">Money Bills</option>
@@ -167,7 +167,7 @@
               <input 
               id="paint-color" 
               style="font-size: inherit;" 
-              name="Paint Color" 
+              name="contact[Paint Color]" 
               placeholder="Paint Color" 
               required
               class="field__input"
@@ -180,7 +180,7 @@
             <div class="field">              
             <!-- Background Base Colour -->
             <label class="field__label" for="extra-bottle">Extra Bottle Option ($50 extra):</label>
-            <select  id="extra-bottle" style="font-size: inherit;" class="select__select"  name="extra-bottle" placeholder="Extra Bottle" required>
+            <select  id="extra-bottle" style="font-size: inherit;" class="select__select"  name="contact[Extra bottle]" placeholder="Extra Bottle" required>
                 <option selected="" disabled="" required="" value="">Extra Bottle Option ($50 extra):</option>
                 <option value="yes">YES</option>
                 <option value="no">NO</option>
