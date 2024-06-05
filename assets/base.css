@@ -3462,3 +3462,6 @@ details-disclosure > details {
 #paint-color-div{
   display: none;
 }
+#secondary-colour{
+  padding-right: 0px;
+}
