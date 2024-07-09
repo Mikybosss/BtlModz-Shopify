@@ -10,6 +10,7 @@
     },
     "featured_collection_Ugfkfg": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Canvas",
         "heading_size": "h0",
@@ -35,10 +36,201 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_PgaXna": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rEHgyJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Frame Prices",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rEHgyJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_ggz8Rh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EV3mfe": {
+          "type": "column",
+          "settings": {
+            "title": "Size 12x16",
+            "text": "<h4>200$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YAbzjR": {
+          "type": "column",
+          "settings": {
+            "title": "Size 16x20",
+            "text": "<h4>249.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BDjk8L": {
+          "type": "column",
+          "settings": {
+            "title": "Size 19x27",
+            "text": "<h4>299.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EV3mfe",
+        "column_YAbzjR",
+        "column_BDjk8L"
+      ],
+      "custom_css": [
+        "h4 {color: gold;}",
+        "li {border: solid; border-color: white;}",
+        "div > div {border: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_964dYc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_PHqM8q": {
+          "type": "column",
+          "settings": {
+            "title": "Size 24x35",
+            "text": "<h4>424.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KQVE9W": {
+          "type": "column",
+          "settings": {
+            "title": "Size 30x40",
+            "text": "<h4>449.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PHqM8q",
+        "column_KQVE9W"
+      ],
+      "custom_css": [
+        "h4 {color: gold;}",
+        "li {border: solid; border-color: white;}",
+        "div > div {border: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_Ppe3QD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_aRmqP3": {
+          "type": "column",
+          "settings": {
+            "title": "Background Add-Ons",
+            "text": "<h4>+25$ <\/h4><p>Money bills, Paint, Spray paint<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8rdxrh": {
+          "type": "column",
+          "settings": {
+            "title": "Background Secondary Colour",
+            "text": "<h4>+ 25$<\/h4><p>Blue, Gold, Silver, Red, Orange, Purple, Brown, White, Black, Green, Turquoise, Pink, <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iarfzP": {
+          "type": "column",
+          "settings": {
+            "title": "Extra Bottle Option",
+            "text": "<h4><strong>+ 50$<\/strong><\/h4><p>Only applies for frames sized 19x27 and up<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_aRmqP3",
+        "column_8rdxrh",
+        "column_iarfzP"
+      ],
+      "custom_css": [
+        "h4 {color: gold;}",
+        "li {border: solid; border-color: white;}",
+        "div > div {border: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "featured_collection_Ugfkfg"
+    "featured_collection_Ugfkfg",
+    "rich_text_PgaXna",
+    "multicolumn_ggz8Rh",
+    "multicolumn_964dYc",
+    "multicolumn_Ppe3QD"
   ]
 }
