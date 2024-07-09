@@ -7,6 +7,7 @@
       "blocks": {
         "judge_me_reviews_all_reviews_text_Lpd3PK": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
           }
         }
@@ -20,6 +21,26 @@
     },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_gEqLYN": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Information",
+            "menu": "information"
+          }
+        },
+        "link_list_yVJT8M": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "help"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_gEqLYN",
+        "link_list_yVJT8M"
+      ],
       "settings": {
         "color_scheme": "scheme-4",
         "newsletter_enable": true,

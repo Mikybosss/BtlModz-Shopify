@@ -1,0 +1,437 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1 {}"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_9CNVBK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PDf3Qx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Terms of Use",
+            "heading_size": "h1"
+          }
+        },
+        "text_9T4zKy": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Welcome to BtlModz. These Terms of Use govern your use of our website and services. By accessing or using our website, you agree to comply with and be bound by these Terms of Use. If you do not agree to these terms, please do not use our website.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PDf3Qx",
+        "text_9T4zKy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_jk8Gy4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_rNLQhh": {
+          "type": "column",
+          "settings": {
+            "title": "Eligibility",
+            "text": "<p><strong>By using this website, you represent and warrant that you are at least 18 years old and have the legal capacity to enter into these Terms of Use.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_reKFAU": {
+          "type": "column",
+          "settings": {
+            "title": "Account Registration",
+            "text": "<p><strong>To access certain features of our website, you may need to register for an account. You agree to provide accurate, current, and complete information during the registration process and to update such information as necessary.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7TQiDq": {
+          "type": "column",
+          "settings": {
+            "title": "Account Security",
+            "text": "<p><strong>You are responsible for maintaining the confidentiality of your account login information and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rNLQhh",
+        "column_reKFAU",
+        "column_7TQiDq"
+      ],
+      "settings": {
+        "title": "Use of Website",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_B3igDf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nb8Edx": {
+          "type": "column",
+          "settings": {
+            "title": "Order Acceptance",
+            "text": "<p><strong>All orders placed through our website are subject to acceptance by Bottle Art Company. We reserve the right to refuse or cancel any order for any reason.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EJM7CD": {
+          "type": "column",
+          "settings": {
+            "title": "Pricing",
+            "text": "<p><strong>All prices are listed in CAD and are subject to change without notice. Prices do not include shipping and handling charges, which will be added to your total order price.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zH8wBU": {
+          "type": "column",
+          "settings": {
+            "title": "Payment",
+            "text": "<p><strong>Payment must be made at the time of purchase. We accept VISA, MASTERCARD, SHOPAY ETC. By submitting your payment information, you authorize us to charge the applicable payment method for the total amount of your order.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nb8Edx",
+        "column_EJM7CD",
+        "column_zH8wBU"
+      ],
+      "settings": {
+        "title": "Orders and Payments",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_fYDrCt": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zF3GcG": {
+          "type": "column",
+          "settings": {
+            "title": "Shipping",
+            "text": "<p>We ship to locations worldwide. Shipping costs and delivery times vary based on your location and the shipping method selected. For more information, please refer to our Shipping Information page.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rEcTLr": {
+          "type": "column",
+          "settings": {
+            "title": "Delivery",
+            "text": "<p><strong>While we strive to meet estimated delivery times, we are not responsible for any delays caused by events outside of our control, including but not limited to customs delays, natural disasters, or carrier delays.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zF3GcG",
+        "column_rEcTLr"
+      ],
+      "settings": {
+        "title": "Shipping and Delivery",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_Lczxbx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7kHwFE": {
+          "type": "column",
+          "settings": {
+            "title": "Ownership",
+            "text": "<p><strong>All content on our website, including but not limited to text, graphics, logos, images, and software, is the property of Bottle Art Company or its content suppliers and is protected by intellectual property laws.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qeCxdk": {
+          "type": "column",
+          "settings": {
+            "title": "License",
+            "text": "<p><strong>We grant you a limited, non-exclusive, non-transferable, and revocable license to access and use our website for personal, non-commercial purposes. Any unauthorized use of our content is strictly prohibited.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7kHwFE",
+        "column_qeCxdk"
+      ],
+      "settings": {
+        "title": "Intellectual Property",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_LURjAy": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QKbD7H": {
+          "type": "column",
+          "settings": {
+            "title": "Prohibited Activities",
+            "text": "<p>You agree not to engage in any of the following prohibited activities: (a) copying, distributing, or disclosing any part of our website in any medium; (b) using any automated system to access our website; (c) interfering with the proper functioning of our website; (d) attempting to gain unauthorized access to our systems or networks.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FiUWc9": {
+          "type": "column",
+          "settings": {
+            "title": "User Content",
+            "text": "<p><strong>If you submit any content to our website, you grant us a non-exclusive, royalty-free, worldwide, perpetual license to use, reproduce, modify, publish, and distribute such content in any media.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QKbD7H",
+        "column_FiUWc9"
+      ],
+      "settings": {
+        "title": "User Conduct",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_WPwQPC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Mqgthq": {
+          "type": "column",
+          "settings": {
+            "title": "Disclaimer of Warranties",
+            "text": "<p><strong>Our website and services are provided on an \"as is\" and \"as available\" basis without warranties of any kind, either express or implied. We do not warrant that our website will be uninterrupted, error-free, or free of viruses or other harmful components.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HgcQ7k": {
+          "type": "column",
+          "settings": {
+            "title": "Limitation of Liability",
+            "text": "<p><strong>To the maximum extent permitted by law, Bottle Art Company shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from (a) your use or inability to use our website; (b) any unauthorized access to or use of our servers and\/or any personal information stored therein; (c) any bugs, viruses, or other harmful code that may be transmitted to or through our website by any third party.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Mqgthq",
+        "column_HgcQ7k"
+      ],
+      "settings": {
+        "title": "Disclaimers and Limitation of Liability",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_hnPreL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MG7VLW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Governing Law",
+            "heading_size": "h1"
+          }
+        },
+        "text_Gi644P": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>These Terms of Use shall be governed by and construed in accordance with the laws of Canada, without regard to its conflict of law principles. You agree to submit to the exclusive jurisdiction of the courts located in [Your Country\/State] to resolve any legal matter arising from these Terms of Use.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MG7VLW",
+        "text_Gi644P"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_bwnGm6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Pz4Nke": {
+          "type": "heading",
+          "settings": {
+            "heading": "Changes to Terms of Use",
+            "heading_size": "h1"
+          }
+        },
+        "text_bqhkhB": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We reserve the right to modify these Terms of Use at any time. We will notify you of any changes by posting the new Terms of Use on our website. You are advised to review these Terms of Use periodically for any changes. Your continued use of our website following the posting of changes constitutes your acceptance of those changes.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Pz4Nke",
+        "text_bqhkhB"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_tGGAwf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jizbFQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_6CEmTi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you have any questions about these Terms of Use, please contact us using the form below.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jizbFQ",
+        "text_6CEmTi"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_9CNVBK",
+    "multicolumn_jk8Gy4",
+    "multicolumn_B3igDf",
+    "multicolumn_fYDrCt",
+    "multicolumn_Lczxbx",
+    "multicolumn_LURjAy",
+    "multicolumn_WPwQPC",
+    "rich_text_hnPreL",
+    "rich_text_bwnGm6",
+    "rich_text_tGGAwf",
+    "form"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "ss_simple_faq_ipjq73": {
+      "type": "ss-simple-faq",
+      "blocks": {
+        "text_tcgP3a": {
+          "type": "text",
+          "settings": {
+            "question": "What is Bottle Art?",
+            "answer": "<p>Bottle Art specializes in handcrafted and customized bottle art. We transform ordinary bottles into extraordinary works of art, perfect for home decor, gifts, and special occasions.<\/p>"
+          }
+        },
+        "text_pX3cPn": {
+          "type": "text",
+          "settings": {
+            "question": "Where are you located?",
+            "answer": "<p>We are an online-based company with our studio located in Montreal, Quebec. All orders are processed and shipped from this location.<\/p>"
+          }
+        },
+        "text_QfURRw": {
+          "type": "text",
+          "settings": {
+            "question": "What types of bottles do you use for your art?",
+            "answer": "<p>We use a variety of bottles, including alcohol bottles, wine bottles, beer bottles, and glass jars. Each bottle is carefully selected and cleaned before being transformed into a piece of art.<\/p>"
+          }
+        },
+        "text_QXpKY4": {
+          "type": "text",
+          "settings": {
+            "question": "Can I request a custom design?",
+            "answer": "<p>Yes, we offer custom designs! You can provide us with your ideas, themes, or specific requests, and I will create a unique piece tailored to your specifications.<\/p>"
+          }
+        },
+        "text_HmD9Bm": {
+          "type": "text",
+          "settings": {
+            "question": "How do I request a custom order?",
+            "answer": "<p>To request a custom order, please visit our <a href=\"\/pages\/customize-a-frame\" title=\"Customize a Frame\">Customize Frames page<\/a> and fill out the form with your details and design preferences. Our team will get in touch with you to finalize the design and provide a quote.<\/p>"
+          }
+        },
+        "text_EC6yqN": {
+          "type": "text",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "<p>You can place an order directly through our website. Simply browse our collection, add items to your cart, and proceed to checkout.<\/p>"
+          }
+        },
+        "text_DMTAyH": {
+          "type": "text",
+          "settings": {
+            "question": "How long does it take to receive my order?",
+            "answer": "<p>Standard orders typically take 5-7 business days to process and ship. Custom orders may take longer, depending on the complexity of the design. Delivery times vary based on your location.<\/p>"
+          }
+        },
+        "text_QxjkTf": {
+          "type": "text",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "<p><a href=\"\/pages\/returns-or-refunds\" title=\"Returns or Refunds\">Please visit our return policy page<\/a><\/p>"
+          }
+        },
+        "text_PEqmhw": {
+          "type": "text",
+          "settings": {
+            "question": "How can I contact customer service?",
+            "answer": "<p>You can reach our customer service team via email at [email address] or through our Contact Us page. We aim to respond to all inquiries within 24 hours.<\/p>"
+          }
+        },
+        "text_QNya4z": {
+          "type": "text",
+          "settings": {
+            "question": "Do you have a physical store I can visit?",
+            "answer": "<p>Currently, we operate exclusively online. However, we do participate in various art fairs and markets. Follow us on social media or sign up for our newsletter to stay updated on our events.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_tcgP3a",
+        "text_pX3cPn",
+        "text_QfURRw",
+        "text_QXpKY4",
+        "text_HmD9Bm",
+        "text_EC6yqN",
+        "text_DMTAyH",
+        "text_QxjkTf",
+        "text_PEqmhw",
+        "text_QNya4z"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "icon_color": "#000000",
+        "hover_color": "#EFEFEF",
+        "question_color": "#000000",
+        "background_color": "#ffffff",
+        "answer_color": "#ffffff",
+        "answer_bg_color": "#000000",
+        "questions-font-size": 1.5
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ss_simple_faq_ipjq73"
+  ]
+}
