@@ -97,3 +97,8 @@ Ensure that you follow the list of [theme store requirements](https://shopify.de
 ## License
 
 Copyright (c) 2021-present Shopify Inc. See [LICENSE](/LICENSE.md) for further details.
+
+## Git Commands
+shopify theme pull --store btlmodz.myshopify.com
+shopify theme push --store btlmodz.myshopify.com
+shopify theme dev --store btlmodz.myshopify.com

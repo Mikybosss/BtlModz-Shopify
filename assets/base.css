@@ -3455,10 +3455,17 @@ details-disclosure > details {
   }
 }
 /* Miky CSS */
-#frame-size-error{
+#bottle-option-message{
   color: gold;
-  font-size: 18px;
+  font-size: 14px;
+  text-align: center;
 }
+#personal-image-message{
+  color: gold;
+  font-size: 14px;
+  text-align: center;
+}
+
 #paint-color-div{
   display: none;
 }

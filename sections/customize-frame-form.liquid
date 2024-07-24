@@ -179,9 +179,9 @@
             </div>
             <div class="field">              
             <!-- Background Base Colour -->
-            <label class="field__label" for="extra-bottle">Extra Bottle Option (+$50):</label>
+            <label class="field__label" for="extra-bottle"></label>
             <select  id="extra-bottle" style="font-size: inherit;" class="select__select"  name="contact[Extra bottle]" placeholder="Extra Bottle" required>
-                <option selected="" disabled="" required="" value="">Extra Bottle Option (+$50):</option>
+                <option selected="" disabled="" required="" value="default">Extra Bottle Option (+$50):</option>
                 <option value="yes">YES</option>
                 <option value="no">NO</option>
                 </select>  
@@ -198,10 +198,20 @@
                 placeholder="{{ 'templates.contact.form.phone' | t }}"
               >
               <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
-            </div>     
+            </div>
+            <!-- Add the image upload field here -->
+            <div class="field">
+              <label for="personal-image" class="field__label"></label>
+              <select id="personal-image" class="select__select" name="contact[useImage]" style="font-size: inherit;" required>
+                <option selected="" disabled="" required="" value="default">Personal Background Image (+30$):</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>    
       </div>
-      
-      <span id="frame-size-error">The extra bottle option is only available for frames sized 19x27 and up.</span>  
+      <span id="personal-image-message">The personal image option is only available for frames sized 19x27 and under.</span>  
+      <br>
+      <span id="bottle-option-message">The extra bottle option is only available for frames sized 19x27 and up.</span>  
       <div class="field">
         <textarea
           rows="10"
@@ -213,7 +223,7 @@
           {{- form.body -}}
         </textarea>
         <label class="form__label field__label" for="ContactForm-body">
-            Special Inquiries for Add Ons:
+            Bottles:
         </label>
       </div>
       <div class="contact__button">
@@ -228,17 +238,28 @@
         function updateExtraBottleOption() {
             const sizeSelect = document.getElementById('frame-size');
             const extraBottleSelect = document.getElementById('extra-bottle');
+            const personalImageSelect = document.getElementById('personal-image');
             const sizeValue = sizeSelect.value;
-            const sizeError = document.getElementById('frame-size-error');
-
+            const personalImage = document.getElementById('personal-image-message');
+            const bottleoption = document.getElementById('bottle-option-message');
+            
+            //Bottle Option Select
             if (sizeValue === '19x27' || sizeValue === '24x35' || sizeValue === '30x40') {
                 extraBottleSelect.disabled = false;
-                extraBottleSelect.value = 'no'
-                sizeError.hidden = true;
+                bottleoption.hidden = true;
             } else {
                 extraBottleSelect.disabled = true;
-                extraBottleSelect.value = " ";
-                sizeError.hidden = false;
+                extraBottleSelect.value = "default";
+                bottleoption.hidden = false;
+            }
+            //Personal Image Select
+            if (sizeValue === '12x16' || sizeValue === '16x20' || sizeValue === '19x27') {
+              personalImageSelect.disabled = false;
+              personalImage.hidden = true;
+            } else {
+              personalImageSelect.disabled = true;
+              personalImageSelect.value = "default";
+              personalImage.hidden = false;
             }
         }
         document.getElementById('frame-size').addEventListener('change', updateExtraBottleOption);

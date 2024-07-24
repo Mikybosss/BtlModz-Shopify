@@ -10,6 +10,7 @@
     },
     "featured_collection_Ugfkfg": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Canvas",
         "heading_size": "h0",
@@ -42,34 +43,38 @@
         "image_hVVife": {
           "type": "image",
           "settings": {
+            "gallery_photo": "shopify:\/\/shop_images\/JointHolder.jpg",
             "gallery_url": ""
           }
         },
         "image_pTgVWd": {
           "type": "image",
           "settings": {
+            "gallery_photo": "shopify:\/\/shop_images\/AshTray.jpg",
             "gallery_url": ""
           }
         },
         "image_Kz9aBC": {
           "type": "image",
           "settings": {
+            "gallery_photo": "shopify:\/\/shop_images\/Grinder.jpg",
             "gallery_url": ""
           }
         },
         "image_YWfcUi": {
           "type": "image",
           "settings": {
+            "gallery_photo": "shopify:\/\/shop_images\/Grinder1.jpg",
             "gallery_url": ""
           }
         },
-        "image_eRyN3X": {
+        "image_yUKGjQ": {
           "type": "image",
           "settings": {
             "gallery_url": ""
           }
         },
-        "image_4VpMfB": {
+        "image_Wh8CVF": {
           "type": "image",
           "settings": {
             "gallery_url": ""
@@ -81,18 +86,18 @@
         "image_pTgVWd",
         "image_Kz9aBC",
         "image_YWfcUi",
-        "image_eRyN3X",
-        "image_4VpMfB"
+        "image_yUKGjQ",
+        "image_Wh8CVF"
       ],
-      "disabled": true,
       "settings": {
         "show_all_mobile": true,
-        "gallery_title": "Discover our creative universe on Instagram",
-        "gallery_title_font_size": 20,
-        "gallery_insta_title": "@instagram",
-        "gallery_insta_url": "",
+        "gallery_title": "These are the rolling kits we can customize!",
+        "gallery_title_font_size": 58,
+        "gallery_insta_title": "@btlmodz",
+        "gallery_insta_url": "https:\/\/www.instagram.com\/btl.modz\/",
+        "gallery_image": "shopify:\/\/shop_images\/RollingKit.jpg",
         "gallery_url": "",
-        "section_bg_color": "#ffffff",
+        "section_bg_color": "#000000",
         "type_header_font": "assistant_n4",
         "type_insta_font": "assistant_n4",
         "padding_top": 36,

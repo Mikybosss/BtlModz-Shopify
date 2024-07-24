@@ -43,7 +43,7 @@
         "heading_rEHgyJ": {
           "type": "heading",
           "settings": {
-            "heading": "Frame Prices",
+            "heading": "Broken Bottle Frames",
             "heading_size": "h1"
           }
         }
@@ -67,7 +67,7 @@
           "type": "column",
           "settings": {
             "title": "Size 12x16",
-            "text": "<h4>200$<\/h4>",
+            "text": "<h4>250$<\/h4>",
             "link_label": "",
             "link": ""
           }
@@ -76,7 +76,7 @@
           "type": "column",
           "settings": {
             "title": "Size 16x20",
-            "text": "<h4>249.99$<\/h4>",
+            "text": "<h4>299.99$<\/h4>",
             "link_label": "",
             "link": ""
           }
@@ -85,7 +85,7 @@
           "type": "column",
           "settings": {
             "title": "Size 19x27",
-            "text": "<h4>299.99$<\/h4>",
+            "text": "<h4>349.99$<\/h4>",
             "link_label": "",
             "link": ""
           }
@@ -125,7 +125,7 @@
           "type": "column",
           "settings": {
             "title": "Size 24x35",
-            "text": "<h4>424.99$<\/h4>",
+            "text": "<h4>474.99$<\/h4>",
             "link_label": "",
             "link": ""
           }
@@ -134,7 +134,7 @@
           "type": "column",
           "settings": {
             "title": "Size 30x40",
-            "text": "<h4>449.99$<\/h4>",
+            "text": "<h4>499.99$<\/h4>",
             "link_label": "",
             "link": ""
           }
@@ -223,6 +223,97 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
+    },
+    "rich_text_XLDe6L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yQTfWB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rolling Kits",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yQTfWB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_eFhdWp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Dkb9tn": {
+          "type": "column",
+          "settings": {
+            "title": "Grinder",
+            "text": "<h4>14.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eLEJkj": {
+          "type": "column",
+          "settings": {
+            "title": "Rolling Tray",
+            "text": "<h4>29.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7KtEee": {
+          "type": "column",
+          "settings": {
+            "title": "Joint Holder",
+            "text": "<h4><strong>9.99$<\/strong><\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_thyARy": {
+          "type": "column",
+          "settings": {
+            "title": "Ash Tray",
+            "text": "<h4>14.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Dkb9tn",
+        "column_eLEJkj",
+        "column_7KtEee",
+        "column_thyARy"
+      ],
+      "custom_css": [
+        "h4 {color: gold;}",
+        "li {border: solid; border-color: white;}",
+        "div > div {border: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -231,6 +322,8 @@
     "rich_text_PgaXna",
     "multicolumn_ggz8Rh",
     "multicolumn_964dYc",
-    "multicolumn_Ppe3QD"
+    "multicolumn_Ppe3QD",
+    "rich_text_XLDe6L",
+    "multicolumn_eFhdWp"
   ]
 }
