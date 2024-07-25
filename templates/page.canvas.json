@@ -10,6 +10,7 @@
     },
     "featured_collection_Ugfkfg": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Canvas",
         "heading_size": "h0",
@@ -36,74 +37,125 @@
         "padding_bottom": 36
       }
     },
-    "ss_gallery_1_4iexkt": {
-      "type": "ss-gallery-1",
+    "gallery_jYyVEq": {
+      "type": "gallery",
       "blocks": {
-        "image_hVVife": {
-          "type": "image",
+        "image_UWDV7F": {
+          "type": "Image",
           "settings": {
-            "gallery_url": ""
+            "image": "shopify:\/\/shop_images\/ElCieloGoldCanvas_55d7ea8e-522c-476c-b554-66622df1a9f5.png",
+            "title": "El Cielo Gold",
+            "description": ""
           }
         },
-        "image_pTgVWd": {
-          "type": "image",
+        "image_ww9bGV": {
+          "type": "Image",
           "settings": {
-            "gallery_url": ""
+            "image": "shopify:\/\/shop_images\/GSPCanvas.png",
+            "title": "George Saint Pierre",
+            "description": ""
           }
         },
-        "image_Kz9aBC": {
-          "type": "image",
+        "image_8YPYi6": {
+          "type": "Image",
           "settings": {
-            "gallery_url": ""
+            "image": "shopify:\/\/shop_images\/TunechiCanvas_ed330f79-dbaa-4a89-8e46-53928adfdca5.png",
+            "title": "Tunechi",
+            "description": ""
           }
         },
-        "image_YWfcUi": {
-          "type": "image",
+        "image_qHgdGr": {
+          "type": "Image",
           "settings": {
-            "gallery_url": ""
+            "image": "shopify:\/\/shop_images\/PistolaCanvas_da16dfe5-c9dc-4788-bb08-2bdf85888c60.png",
+            "title": "Pistola",
+            "description": ""
           }
         },
-        "image_eRyN3X": {
-          "type": "image",
+        "image_JBEBQM": {
+          "type": "Image",
           "settings": {
-            "gallery_url": ""
+            "image": "shopify:\/\/shop_images\/HazardCanvas_3c1162f4-5c61-434b-9f9d-2f0517490fa7.png",
+            "title": "Hazard",
+            "description": ""
           }
         },
-        "image_4VpMfB": {
-          "type": "image",
+        "image_rE9KKG": {
+          "type": "Image",
           "settings": {
-            "gallery_url": ""
+            "image": "shopify:\/\/shop_images\/BlurrySkiesCanvas_98e2a6a2-2b13-4dc9-9776-c22083898a69.png",
+            "title": "Blurry Skies",
+            "description": ""
+          }
+        },
+        "image_dy6kdn": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BenjysCanvas_852a6bbb-766e-4d3f-98d2-e15d95745e84.png",
+            "title": "Benjy's",
+            "description": ""
+          }
+        },
+        "image_Hbw9qb": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VintageJWCanvas.png",
+            "title": "Vintage JW",
+            "description": ""
+          }
+        },
+        "image_RHYCbX": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VolkanCanvas.png",
+            "title": "Volkan",
+            "description": ""
+          }
+        },
+        "image_kNFLDc": {
+          "type": "Image",
+          "settings": {
+            "title": "",
+            "description": ""
+          }
+        },
+        "image_83anFr": {
+          "type": "Image",
+          "settings": {
+            "title": "",
+            "description": ""
+          }
+        },
+        "image_WNWJNM": {
+          "type": "Image",
+          "settings": {
+            "title": "",
+            "description": ""
           }
         }
       },
       "block_order": [
-        "image_hVVife",
-        "image_pTgVWd",
-        "image_Kz9aBC",
-        "image_YWfcUi",
-        "image_eRyN3X",
-        "image_4VpMfB"
+        "image_UWDV7F",
+        "image_ww9bGV",
+        "image_8YPYi6",
+        "image_qHgdGr",
+        "image_JBEBQM",
+        "image_rE9KKG",
+        "image_dy6kdn",
+        "image_Hbw9qb",
+        "image_RHYCbX",
+        "image_kNFLDc",
+        "image_83anFr",
+        "image_WNWJNM"
       ],
-      "disabled": true,
       "settings": {
-        "show_all_mobile": true,
-        "gallery_title": "Discover our creative universe on Instagram",
-        "gallery_title_font_size": 20,
-        "gallery_insta_title": "@instagram",
-        "gallery_insta_url": "",
-        "gallery_url": "",
-        "section_bg_color": "#ffffff",
-        "type_header_font": "assistant_n4",
-        "type_insta_font": "assistant_n4",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section-width": 120
+        "title": "Broken Bottle Frames"
       }
     }
   },
   "order": [
     "main",
     "featured_collection_Ugfkfg",
-    "ss_gallery_1_4iexkt"
+    "gallery_jYyVEq"
   ]
 }
