@@ -118,8 +118,22 @@
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
           placeholder="{{ 'templates.contact.form.comment' | t }}"
         >
-          {{- form.body -}}
+        {{- form.body -}}
         </textarea>
+        {% comment %} Get product title from url {% endcomment %}
+        <script>
+            function getQueryParam(param) {
+                const urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get(param);
+            }
+
+            document.addEventListener("DOMContentLoaded", function() {
+                const productTitle = getQueryParam('product');
+                if (productTitle) {
+                    document.getElementById('ContactForm-body').value = `Hello! I would like a copy of the "${productTitle}" Canvas`;
+                }
+            });
+        </script>
         <label class="form__label field__label" for="ContactForm-body">
           {{- 'templates.contact.form.comment' | t -}}
         </label>

@@ -17,7 +17,7 @@
                     <div class="caption" 
                          onmouseover="changeText(this, 'Customize this frame')" 
                          onmouseout="resetText(this, '{{ block.settings.title }}')" 
-                         onclick="redirectToPage('https://btlmodz.myshopify.com/pages/customize-a-frame')">
+                         onclick="redirectToPage('{{ block.settings.title }}')">
                         {{ block.settings.title }}
                     </div>
                     <div class="description">{{ block.settings.description }}</div>
@@ -56,8 +56,10 @@
             element.innerText = element.dataset.originalText || originalText;
         }
 
-        function redirectToPage(url) {
-            window.location.href = url;
+        function redirectToPage(title) {
+          const url = new URL('https://btlmodz.myshopify.com/pages/contact');
+          url.searchParams.append('product', title);
+          window.location.href = url.toString();
         }
     </script>
     </div>
