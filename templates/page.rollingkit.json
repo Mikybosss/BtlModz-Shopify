@@ -37,78 +37,97 @@
         "padding_bottom": 36
       }
     },
-    "ss_gallery_1_4iexkt": {
-      "type": "ss-gallery-1",
+    "rich_text_9PTYBz": {
+      "type": "rich-text",
       "blocks": {
-        "image_hVVife": {
-          "type": "image",
+        "heading_dyMQhY": {
+          "type": "heading",
           "settings": {
-            "gallery_photo": "shopify:\/\/shop_images\/JointHolder.jpg",
-            "gallery_url": ""
-          }
-        },
-        "image_pTgVWd": {
-          "type": "image",
-          "settings": {
-            "gallery_photo": "shopify:\/\/shop_images\/AshTray.jpg",
-            "gallery_url": ""
-          }
-        },
-        "image_Kz9aBC": {
-          "type": "image",
-          "settings": {
-            "gallery_photo": "shopify:\/\/shop_images\/Grinder.jpg",
-            "gallery_url": ""
-          }
-        },
-        "image_YWfcUi": {
-          "type": "image",
-          "settings": {
-            "gallery_photo": "shopify:\/\/shop_images\/Grinder1.jpg",
-            "gallery_url": ""
-          }
-        },
-        "image_yUKGjQ": {
-          "type": "image",
-          "settings": {
-            "gallery_url": ""
-          }
-        },
-        "image_Wh8CVF": {
-          "type": "image",
-          "settings": {
-            "gallery_url": ""
+            "heading": "Rolling Kits",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "image_hVVife",
-        "image_pTgVWd",
-        "image_Kz9aBC",
-        "image_YWfcUi",
-        "image_yUKGjQ",
-        "image_Wh8CVF"
+        "heading_dyMQhY"
       ],
       "settings": {
-        "show_all_mobile": true,
-        "gallery_title": "These are the rolling kits we can customize!",
-        "gallery_title_font_size": 58,
-        "gallery_insta_title": "@btlmodz",
-        "gallery_insta_url": "https:\/\/www.instagram.com\/btl.modz\/",
-        "gallery_image": "shopify:\/\/shop_images\/RollingKit.jpg",
-        "gallery_url": "",
-        "section_bg_color": "#000000",
-        "type_header_font": "assistant_n4",
-        "type_insta_font": "assistant_n4",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section-width": 120
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "gallery_R9K8gX": {
+      "type": "gallery",
+      "blocks": {
+        "image_36aRzt": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RollingKit.jpg",
+            "title": "Rolling Kit",
+            "description": ""
+          }
+        },
+        "image_iGwFxf": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JointHolder.jpg",
+            "title": "Joint Holder",
+            "description": ""
+          }
+        },
+        "image_ijWW4T": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grinder1.jpg",
+            "title": "Grinder Open",
+            "description": ""
+          }
+        },
+        "image_K8mRf7": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grinder.jpg",
+            "title": "Grinder Closed",
+            "description": ""
+          }
+        },
+        "image_N79F7M": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AshTray.jpg",
+            "title": "Ash Tray",
+            "description": ""
+          }
+        },
+        "image_3TpkKh": {
+          "type": "Image",
+          "settings": {
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_36aRzt",
+        "image_iGwFxf",
+        "image_ijWW4T",
+        "image_K8mRf7",
+        "image_N79F7M",
+        "image_3TpkKh"
+      ],
+      "settings": {
+        "title": ""
       }
     }
   },
   "order": [
     "main",
     "featured_collection_Ugfkfg",
-    "ss_gallery_1_4iexkt"
+    "rich_text_9PTYBz",
+    "gallery_R9K8gX"
   ]
 }

@@ -37,6 +37,41 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_T7UFx7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iJEwMN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Broken Bottle Frames",
+            "heading_size": "h1"
+          }
+        },
+        "button_eGhDta": {
+          "type": "button",
+          "settings": {
+            "button_label": "Customize a Frame",
+            "button_link": "shopify:\/\/pages\/customize-a-frame",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iJEwMN",
+        "button_eGhDta"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "gallery_jYyVEq": {
       "type": "gallery",
       "blocks": {
@@ -115,20 +150,87 @@
         "image_kNFLDc": {
           "type": "Image",
           "settings": {
-            "title": "",
+            "image": "shopify:\/\/shop_images\/VenimeuxCanvas.png",
+            "title": "Venimeux",
             "description": ""
           }
         },
         "image_83anFr": {
           "type": "Image",
           "settings": {
-            "title": "",
+            "image": "shopify:\/\/shop_images\/TetuBrothersCanvas.png",
+            "title": "Tetu Brothers",
             "description": ""
           }
         },
         "image_WNWJNM": {
           "type": "Image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SplatCanvas.png",
+            "title": "Splat",
+            "description": ""
+          }
+        },
+        "image_8XJbiD": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SohoBombCanvas.png",
+            "title": "Soho Bomb",
+            "description": ""
+          }
+        },
+        "image_PAnhJr": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PeachyCanvas.png",
+            "title": "Peachy",
+            "description": ""
+          }
+        },
+        "image_yg7gDX": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OGDONCanvas.png",
+            "title": "OG Don",
+            "description": ""
+          }
+        },
+        "image_QY9iec": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MoneyTalksCanvas.png",
+            "title": "Money Talks",
+            "description": ""
+          }
+        },
+        "image_N3CeMQ": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MadmoiselleCanvas.png",
+            "title": "Madmoiselle",
+            "description": ""
+          }
+        },
+        "image_yXVtTd": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LeCrystalCanvas.png",
+            "title": "Le Crystal",
+            "description": ""
+          }
+        },
+        "image_6y3RRb": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HoneydewCanvas.png",
+            "title": "Honeydew",
+            "description": ""
+          }
+        },
+        "image_4MFEE3": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HennydUpCanvas.png",
             "title": "",
             "description": ""
           }
@@ -146,16 +248,83 @@
         "image_RHYCbX",
         "image_kNFLDc",
         "image_83anFr",
-        "image_WNWJNM"
+        "image_WNWJNM",
+        "image_8XJbiD",
+        "image_PAnhJr",
+        "image_yg7gDX",
+        "image_QY9iec",
+        "image_N3CeMQ",
+        "image_yXVtTd",
+        "image_6y3RRb",
+        "image_4MFEE3"
       ],
       "settings": {
-        "title": "Broken Bottle Frames"
+        "title": ""
+      }
+    },
+    "rich_text_UiQYF4": {
+      "type": "rich-text",
+      "blocks": {
+        "button_bNjfYY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Customize a Frame",
+            "button_link": "shopify:\/\/pages\/customize-a-frame",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_bNjfYY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_LUNUBH": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Broken Bottle Frames",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "canvas",
+        "products_to_show": 18,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "blob",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "featured_collection_Ugfkfg",
-    "gallery_jYyVEq"
+    "rich_text_T7UFx7",
+    "gallery_jYyVEq",
+    "rich_text_UiQYF4",
+    "featured_collection_LUNUBH"
   ]
 }
