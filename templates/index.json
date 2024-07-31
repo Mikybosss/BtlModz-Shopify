@@ -40,39 +40,104 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "canvas",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-4",
-        "image_ratio": "square",
-        "image_shape": "blob",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
     "gallery_UeJeHq": {
       "type": "gallery",
-      "disabled": true,
+      "blocks": {
+        "image_WKRUDL": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ElCieloGoldCanvas_55d7ea8e-522c-476c-b554-66622df1a9f5.png",
+            "title": "El Cielo Gold",
+            "description": ""
+          }
+        },
+        "image_b4BPin": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TunechiCanvas_ed330f79-dbaa-4a89-8e46-53928adfdca5.png",
+            "title": "Tunechi",
+            "description": ""
+          }
+        },
+        "image_AcbB6f": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GSPCanvas.png",
+            "title": "Georges Saint Pierre",
+            "description": ""
+          }
+        },
+        "image_irKBaH": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HazardCanvas_3c1162f4-5c61-434b-9f9d-2f0517490fa7.png",
+            "title": "Hazard",
+            "description": ""
+          }
+        },
+        "image_BMyKye": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PistolaCanvas_da16dfe5-c9dc-4788-bb08-2bdf85888c60.png",
+            "title": "Pistola",
+            "description": ""
+          }
+        },
+        "image_LEcpz6": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DoubleAceCanvas.png",
+            "title": "Double Ace Canvas",
+            "description": ""
+          }
+        },
+        "image_iWdeVY": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HenessyXOCanvas.png",
+            "title": "Henessy XO",
+            "description": ""
+          }
+        },
+        "image_PgKqyR": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OGDONCanvas.png",
+            "title": "OG Don",
+            "description": ""
+          }
+        },
+        "image_XDhLfR": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VintageJWCanvas.png",
+            "title": "Vintage JW",
+            "description": ""
+          }
+        },
+        "image_dFggFV": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HennydUpCanvas.png",
+            "title": "Henny'd Up",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WKRUDL",
+        "image_b4BPin",
+        "image_AcbB6f",
+        "image_irKBaH",
+        "image_BMyKye",
+        "image_LEcpz6",
+        "image_iWdeVY",
+        "image_PgKqyR",
+        "image_XDhLfR",
+        "image_dFggFV"
+      ],
       "settings": {
-        "title": "Gallery"
+        "title": ""
       }
     },
     "1717518351fb7892f3": {
@@ -95,7 +160,6 @@
   },
   "order": [
     "image_banner",
-    "featured_collection",
     "gallery_UeJeHq",
     "1717518351fb7892f3"
   ]
