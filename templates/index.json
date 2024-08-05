@@ -27,7 +27,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/a-wall-of-painted-portraits.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_7598.jpg",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
@@ -38,6 +38,29 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "rich_text_V8FzRX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Rfemxz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Most popular",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Rfemxz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "gallery_UeJeHq": {
@@ -140,6 +163,33 @@
         "title": ""
       }
     },
+    "rich_text_Y8dtCp": {
+      "type": "rich-text",
+      "blocks": {
+        "button_eHxC3F": {
+          "type": "button",
+          "settings": {
+            "button_label": "View all",
+            "button_link": "shopify:\/\/pages\/canvas",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_eHxC3F"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1717518351fb7892f3": {
       "type": "apps",
       "blocks": {
@@ -160,7 +210,9 @@
   },
   "order": [
     "image_banner",
+    "rich_text_V8FzRX",
     "gallery_UeJeHq",
+    "rich_text_Y8dtCp",
     "1717518351fb7892f3"
   ]
 }

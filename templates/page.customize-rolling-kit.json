@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "customize_rollingkit_form_Rd3zki": {
+      "type": "customize-rollingkit-form",
+      "settings": {
+        "heading": "Customize a Rolling Kit",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "customize_rollingkit_form_Rd3zki"
+  ]
+}

@@ -57,7 +57,12 @@
         }
 
         function redirectToPage(title) {
-          const url = new URL('https://btlmodz.myshopify.com/pages/contact');
+          let url;
+          if (title === "Grinder" || title === "Joint Holder" || title === "Ash Tray" || title === "Rolling Kit") {
+            url = new URL('https://btlmodz.ca/pages/customize-a-rolling-kit');
+          }else {
+            url = new URL('https://btlmodz.myshopify.com/pages/contact');
+          }
           url.searchParams.append('product', title);
           window.location.href = url.toString();
         }

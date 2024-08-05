@@ -83,7 +83,7 @@
           "type": "Image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Grinder1.jpg",
-            "title": "Grinder Open",
+            "title": "Grinder",
             "description": ""
           }
         },
@@ -91,7 +91,7 @@
           "type": "Image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Grinder.jpg",
-            "title": "Grinder Closed",
+            "title": "Grinder",
             "description": ""
           }
         },
