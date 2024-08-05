@@ -144,7 +144,7 @@
             document.addEventListener("DOMContentLoaded", function() {
                 const productTitle = getQueryParam('product');
                 if (productTitle) {
-                    document.getElementById('ContactForm-body').value = `Hello! I would like a copy of the "${productTitle}"`;
+                    document.getElementById('ContactForm-body').value = `Hello! I would like to customize a "${productTitle}"`;
                 }
             });
         </script>
@@ -163,7 +163,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.contact-form.name",
+  "name": "Customizeable Rolling Kit",
   "tag": "section",
   "class": "section",
   "disabled_on": {
