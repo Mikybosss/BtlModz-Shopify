@@ -1,0 +1,329 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "featured_collection_Ugfkfg": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Canvas",
+        "heading_size": "h0",
+        "description": "<p><strong>Please note that each of our frames is a one-of-a-kind piece of art.<\/strong><\/p><p><strong>Natural variations mean no two are exactly alike, but all share the same exceptional quality and beauty.<\/strong><\/p>",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "canvas",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-4",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_PgaXna": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rEHgyJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Broken Bottle Frames",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rEHgyJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_ggz8Rh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EV3mfe": {
+          "type": "column",
+          "settings": {
+            "title": "Size 12x16",
+            "text": "<h4>250$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YAbzjR": {
+          "type": "column",
+          "settings": {
+            "title": "Size 16x20",
+            "text": "<h4>299.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BDjk8L": {
+          "type": "column",
+          "settings": {
+            "title": "Size 19x27",
+            "text": "<h4>349.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EV3mfe",
+        "column_YAbzjR",
+        "column_BDjk8L"
+      ],
+      "custom_css": [
+        "h4 {color: gold;}",
+        "li {border: solid; border-color: white;}",
+        "div > div {border: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_964dYc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_PHqM8q": {
+          "type": "column",
+          "settings": {
+            "title": "Size 24x35",
+            "text": "<h4>474.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KQVE9W": {
+          "type": "column",
+          "settings": {
+            "title": "Size 30x40",
+            "text": "<h4>499.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PHqM8q",
+        "column_KQVE9W"
+      ],
+      "custom_css": [
+        "h4 {color: gold;}",
+        "li {border: solid; border-color: white;}",
+        "div > div {border: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_Ppe3QD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_aRmqP3": {
+          "type": "column",
+          "settings": {
+            "title": "Background Add-Ons",
+            "text": "<h4>+25$ <\/h4><p>Money bills, Paint, Spray paint<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8rdxrh": {
+          "type": "column",
+          "settings": {
+            "title": "Background Secondary Colour",
+            "text": "<h4>+ 25$<\/h4><p>Blue, Gold, Silver, Red, Orange, Purple, Brown, White, Black, Green, Turquoise, Pink, <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iarfzP": {
+          "type": "column",
+          "settings": {
+            "title": "Extra Bottle Option",
+            "text": "<h4><strong>+ 50$<\/strong><\/h4><p>Only applies for frames sized 19x27 and up<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_aRmqP3",
+        "column_8rdxrh",
+        "column_iarfzP"
+      ],
+      "custom_css": [
+        "h4 {color: gold;}",
+        "li {border: solid; border-color: white;}",
+        "div > div {border: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_XLDe6L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yQTfWB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rolling Kits",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yQTfWB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_eFhdWp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Dkb9tn": {
+          "type": "column",
+          "settings": {
+            "title": "Grinder",
+            "text": "<h4>14.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eLEJkj": {
+          "type": "column",
+          "settings": {
+            "title": "Rolling Tray",
+            "text": "<h4>29.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7KtEee": {
+          "type": "column",
+          "settings": {
+            "title": "Joint Holder",
+            "text": "<h4><strong>9.99$<\/strong><\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_thyARy": {
+          "type": "column",
+          "settings": {
+            "title": "Ash Tray",
+            "text": "<h4>14.99$<\/h4>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Dkb9tn",
+        "column_eLEJkj",
+        "column_7KtEee",
+        "column_thyARy"
+      ],
+      "custom_css": [
+        "h4 {color: gold;}",
+        "li {border: solid; border-color: white;}",
+        "div > div {border: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_Ugfkfg",
+    "rich_text_PgaXna",
+    "multicolumn_ggz8Rh",
+    "multicolumn_964dYc",
+    "multicolumn_Ppe3QD",
+    "rich_text_XLDe6L",
+    "multicolumn_eFhdWp"
+  ]
+}

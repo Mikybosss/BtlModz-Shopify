@@ -1,0 +1,163 @@
+<!-- sections/pricing-grid.liquid -->
+<div class="pricing-grid-section">
+  <h2>Prices</h2>
+  <div class="pricing-grid">
+    {% for block in section.blocks %}
+    {% case block.type %}
+    {% when 'tab' %}
+        {{ block.settings.content }}
+        {{ block.settings.content_page.content }}
+    {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Styles for Pricing Grid Section -->
+<style>
+.pricing-grid-section {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.grid-item p {
+  margin: 5px 0;
+}
+
+.grid-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.grid-item:hover {
+  background-color: gray;
+}
+</style>
+
+{% schema %}
+{
+  "name": "Pricing Grid",
+  "settings": [
+    {
+      "type": "select",
+      "id": "container",
+      "label": "Container type",
+      "default": "container",
+      "options": [
+        {
+          "value": "container",
+          "label": "Fixed width"
+        },
+        {
+          "value": "container-fluid",
+          "label": "Stretched width"
+        },
+        {
+          "value": "container-narrow",
+          "label": "Narrow width"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color"
+    },
+    {
+      "type": "checkbox",
+      "id": "default_open",
+      "label": "Default open first tab on mobile",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Animations"
+    },
+    {
+      "type": "select",
+      "id": "animations",
+      "label": "Visible in the view animation",
+      "default": "inherit",
+      "options": [
+        {
+          "value": "inherit",
+          "label": "Inherit global setting"
+        },
+        {
+          "value": "fade-in",
+          "label": "Fade in"
+        },
+        {
+          "value": "fade-in-up",
+          "label": "Fade in up"
+        },
+        {
+          "value": "fade-in-left",
+          "label": "Fade in left"
+        },
+        {
+          "value": "fade-in-right",
+          "label": "Fade in right"
+        }
+      ]
+    }
+  ],
+  "blocks":[
+    {
+      "type": "tab",
+      "name": "Custom content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "header",
+          "label": "Tab heading",
+          "default": "Shipping & Return",
+          "placeholder": "Shipping & Return"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Tab content",
+          "default": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.</p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.</p>"
+        },
+        {
+          "type": "page",
+          "id": "content_page",
+          "label": "Tab content from page"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Tab Image"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_zoom_button",
+          "label": "Enable image zoom",
+          "default": true
+        }
+      ]
+    },
+  ],
+
+  "presets": [
+    {
+      "name": "Pricing Grid",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
