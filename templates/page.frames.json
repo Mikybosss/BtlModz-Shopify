@@ -11,12 +11,12 @@
     "featured_collection_Ugfkfg": {
       "type": "featured-collection",
       "settings": {
-        "title": "Frames",
+        "title": "Monthly Drops",
         "heading_size": "h0",
         "description": "<p><strong>Please note that each of our frames is a one-of-a-kind piece of art.<\/strong><\/p><p><strong>Natural variations mean no two are exactly alike, but all share the same exceptional quality and beauty.<\/strong><\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "canvas",
+        "collection": "monthly-drops",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
