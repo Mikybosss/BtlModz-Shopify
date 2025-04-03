@@ -43,7 +43,7 @@
         "heading_iJEwMN": {
           "type": "heading",
           "settings": {
-            "heading": "Gallery",
+            "heading": "Art Gallery",
             "heading_size": "h1"
           }
         },
@@ -73,14 +73,263 @@
         "padding_bottom": 52
       }
     },
+    "gallery_wJKaLV": {
+      "type": "gallery",
+      "blocks": {
+        "image_tXCqMa": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3820.jpg",
+            "title": "Shattered Seraphina",
+            "description": ""
+          }
+        },
+        "image_aWxX9k": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3094.jpg",
+            "title": "DisToRted dIVa",
+            "description": ""
+          }
+        },
+        "image_xNdELL": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2300.jpg",
+            "title": "Aurora",
+            "description": ""
+          }
+        },
+        "image_YX8tEw": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5485.jpg",
+            "title": "Double ace",
+            "description": ""
+          }
+        },
+        "image_TBr3VQ": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2283.jpg",
+            "title": "Flow Exotico",
+            "description": ""
+          }
+        },
+        "image_LnFkrt": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2751.jpg",
+            "title": "Drizzy Drake",
+            "description": ""
+          }
+        },
+        "image_NcC9UF": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2655.jpg",
+            "title": "Azure Dreams",
+            "description": ""
+          }
+        },
+        "image_8whazM": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2288.jpg",
+            "title": "Blue42",
+            "description": ""
+          }
+        },
+        "image_eXDBei": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2734.jpg",
+            "title": "War",
+            "description": ""
+          }
+        },
+        "image_LKcgcF": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HennyCanvas.png",
+            "title": "Henny Canvas",
+            "description": ""
+          }
+        },
+        "image_cQkAKc": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8397.jpg",
+            "title": "Spritz",
+            "description": ""
+          }
+        },
+        "image_Pmr99x": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GoldDiggerCanvas.png",
+            "title": "Gold Digger",
+            "description": ""
+          }
+        },
+        "image_R8Y6wt": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DraculaCanvas.png",
+            "title": "Dracula",
+            "description": ""
+          }
+        },
+        "image_Wwj9kc": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BloodyMaryCanvas_92f17d10-00d4-486e-8c4f-dfa824b2bc90.png",
+            "title": "Bloody Mary",
+            "description": ""
+          }
+        },
+        "image_M4dCpC": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DosAmigosCanvas.png",
+            "title": "Dos Amigos",
+            "description": ""
+          }
+        },
+        "image_kDNCzX": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9387_dabd077b-9020-4cb7-a7ac-19f8459d42a3.jpg",
+            "title": "Hazard",
+            "description": ""
+          }
+        },
+        "image_reVbaH": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PeachyCanvas.png",
+            "title": "Peachy",
+            "description": ""
+          }
+        },
+        "image_ApYaNB": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BlueSkysCanvas_d6041ec0-7798-4083-89aa-8e6fe199f7fb.png",
+            "title": "Blue sky's",
+            "description": ""
+          }
+        },
+        "image_bMigKM": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7204.jpg",
+            "title": "Splat",
+            "description": ""
+          }
+        },
+        "image_YN4N3i": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6162.jpg",
+            "title": "Green prints",
+            "description": ""
+          }
+        },
+        "image_hPKTfG": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7765.jpg",
+            "title": "Diablo",
+            "description": ""
+          }
+        },
+        "image_e9UtrT": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8419.jpg",
+            "title": "Veuve cliq",
+            "description": ""
+          }
+        },
+        "image_gDqzV7": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1996.heic",
+            "title": "Henny'd up JR",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tXCqMa",
+        "image_aWxX9k",
+        "image_xNdELL",
+        "image_YX8tEw",
+        "image_TBr3VQ",
+        "image_LnFkrt",
+        "image_NcC9UF",
+        "image_8whazM",
+        "image_eXDBei",
+        "image_LKcgcF",
+        "image_cQkAKc",
+        "image_Pmr99x",
+        "image_R8Y6wt",
+        "image_Wwj9kc",
+        "image_M4dCpC",
+        "image_kDNCzX",
+        "image_reVbaH",
+        "image_ApYaNB",
+        "image_bMigKM",
+        "image_YN4N3i",
+        "image_hPKTfG",
+        "image_e9UtrT",
+        "image_gDqzV7"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
     "gallery_jYyVEq": {
       "type": "gallery",
       "blocks": {
-        "image_UWDV7F": {
+        "image_9AFF84": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ElCieloGoldCanvas_55d7ea8e-522c-476c-b554-66622df1a9f5.png",
-            "title": "El Cielo Gold",
+            "image": "shopify:\/\/shop_images\/57942CD2-9C54-454C-98C6-7CBCA40843B6.jpg",
+            "title": "DOGG",
+            "description": ""
+          }
+        },
+        "image_UyK9qr": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0544.jpg",
+            "title": "Conor Mcgregor",
+            "description": ""
+          }
+        },
+        "image_djndeG": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0647.jpg",
+            "title": "Ganja Marley",
+            "description": ""
+          }
+        },
+        "image_dFe36E": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7A674FF8-27E4-477E-ADF3-1425C70CDE58.jpg",
+            "title": "Scuderia Ferrari",
+            "description": ""
+          }
+        },
+        "image_ifXQHB": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0575.jpg",
+            "title": "Jay z",
             "description": ""
           }
         },
@@ -89,6 +338,46 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/GSPCanvas.png",
             "title": "George Saint Pierre",
+            "description": ""
+          }
+        },
+        "image_MRkhcr": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1041.jpg",
+            "title": "Triple Threat",
+            "description": ""
+          }
+        },
+        "image_pV7WBK": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1175.jpg",
+            "title": "Family Matters",
+            "description": ""
+          }
+        },
+        "image_mGjJFB": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9134.jpg",
+            "title": "Classic azul",
+            "description": ""
+          }
+        },
+        "image_zffWC6": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1285.jpg",
+            "title": "Arachnoid (Glows in the Dark)",
+            "description": ""
+          }
+        },
+        "image_4MFEE3": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HennydUpCanvas.png",
+            "title": "Hennyd Up",
             "description": ""
           }
         },
@@ -105,6 +394,22 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/PistolaCanvas_da16dfe5-c9dc-4788-bb08-2bdf85888c60.png",
             "title": "Pistola",
+            "description": ""
+          }
+        },
+        "image_EAYNeD": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6504.jpg",
+            "title": "Amore",
+            "description": ""
+          }
+        },
+        "image_UWDV7F": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ElCieloGoldCanvas_55d7ea8e-522c-476c-b554-66622df1a9f5.png",
+            "title": "El Cielo Gold",
             "description": ""
           }
         },
@@ -180,14 +485,6 @@
             "description": ""
           }
         },
-        "image_PAnhJr": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PeachyCanvas.png",
-            "title": "Peachy",
-            "description": ""
-          }
-        },
         "image_yg7gDX": {
           "type": "Image",
           "settings": {
@@ -201,6 +498,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/MoneyTalksCanvas.png",
             "title": "Money Talks",
+            "description": ""
+          }
+        },
+        "image_n3gwQq": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0689.jpg",
+            "title": "Splat",
             "description": ""
           }
         },
@@ -228,22 +533,6 @@
             "description": ""
           }
         },
-        "image_4MFEE3": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HennydUpCanvas.png",
-            "title": "Hennyd Up",
-            "description": ""
-          }
-        },
-        "image_n3gwQq": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0689.jpg",
-            "title": "Splat",
-            "description": ""
-          }
-        },
         "image_hxNnd8": {
           "type": "Image",
           "settings": {
@@ -252,27 +541,19 @@
             "description": ""
           }
         },
+        "image_QPBCCF": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MoneyTalks2Canvas.png",
+            "title": "Money talks",
+            "description": ""
+          }
+        },
         "image_NTjXDH": {
           "type": "Image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_8824.jpg",
             "title": "Dirty money",
-            "description": ""
-          }
-        },
-        "image_mGjJFB": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_9134.jpg",
-            "title": "Classic azul",
-            "description": ""
-          }
-        },
-        "image_UyK9qr": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0544.jpg",
-            "title": "Conor Mcgregor",
             "description": ""
           }
         },
@@ -292,22 +573,6 @@
             "description": ""
           }
         },
-        "image_ifXQHB": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0575.jpg",
-            "title": "Jay z",
-            "description": ""
-          }
-        },
-        "image_djndeG": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0647.jpg",
-            "title": "Ganja Marley",
-            "description": ""
-          }
-        },
         "image_LeDhHL": {
           "type": "Image",
           "settings": {
@@ -316,19 +581,19 @@
             "description": ""
           }
         },
-        "image_QPBCCF": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MoneyTalks2Canvas.png",
-            "title": "Money talks",
-            "description": ""
-          }
-        },
         "image_zq99Xy": {
           "type": "Image",
           "settings": {
             "image": "shopify:\/\/shop_images\/ChestMasterCanvas_d8fde03c-e64e-40b0-bd58-12de7b330f40.png",
             "title": "Chest master",
+            "description": ""
+          }
+        },
+        "image_XPX77C": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DirtyPCanvas.png",
+            "title": "Dirty DP canvas",
             "description": ""
           }
         },
@@ -380,27 +645,11 @@
             "description": ""
           }
         },
-        "image_kLkxkY": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ElDoradoDobleCanvas.png",
-            "title": "El Dorado doble",
-            "description": ""
-          }
-        },
         "image_NqKPCD": {
           "type": "Image",
           "settings": {
             "image": "shopify:\/\/shop_images\/ElCieloCanvas.png",
             "title": "El cielo",
-            "description": ""
-          }
-        },
-        "image_XPX77C": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DirtyPCanvas.png",
-            "title": "Dirty DP canvas",
             "description": ""
           }
         },
@@ -412,22 +661,6 @@
             "description": ""
           }
         },
-        "image_f7qX6H": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DiabloCanvas.png",
-            "title": "Diablo",
-            "description": ""
-          }
-        },
-        "image_FEjXnC": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DraculaCanvas.png",
-            "title": "Dracula",
-            "description": ""
-          }
-        },
         "image_xrcWyt": {
           "type": "Image",
           "settings": {
@@ -436,52 +669,47 @@
             "description": ""
           }
         },
-        "image_7TwfDn": {
+        "image_kLkxkY": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ElDoradoDobleCanvas.png",
+            "title": "El Dorado doble",
+            "description": ""
+          }
+        },
+        "image_yaiUYX": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9303.jpg",
+            "title": "Vintage",
+            "description": ""
+          }
+        },
+        "image_Hpa9gj": {
           "type": "Image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_8744.jpg",
             "title": "Hustler",
             "description": ""
           }
-        },
-        "image_diDAG9": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BloodyMaryCanvas_92f17d10-00d4-486e-8c4f-dfa824b2bc90.png",
-            "title": "Pink henny",
-            "description": ""
-          }
-        },
-        "image_KY4kEb": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_8397.jpg",
-            "title": "Spritz",
-            "description": ""
-          }
-        },
-        "image_EAYNeD": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6504.jpg",
-            "title": "Amore",
-            "description": ""
-          }
-        },
-        "image_aLMPtr": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/GoldDiggerCanvas.png",
-            "title": "Gold digger",
-            "description": ""
-          }
         }
       },
       "block_order": [
-        "image_UWDV7F",
+        "image_9AFF84",
+        "image_UyK9qr",
+        "image_djndeG",
+        "image_dFe36E",
+        "image_ifXQHB",
         "image_ww9bGV",
+        "image_MRkhcr",
+        "image_pV7WBK",
+        "image_mGjJFB",
+        "image_zffWC6",
+        "image_4MFEE3",
         "image_8YPYi6",
         "image_qHgdGr",
+        "image_EAYNeD",
+        "image_UWDV7F",
         "image_JBEBQM",
         "image_rE9KKG",
         "image_dy6kdn",
@@ -491,62 +719,32 @@
         "image_83anFr",
         "image_WNWJNM",
         "image_8XJbiD",
-        "image_PAnhJr",
         "image_yg7gDX",
         "image_QY9iec",
+        "image_n3gwQq",
         "image_N3CeMQ",
         "image_yXVtTd",
         "image_6y3RRb",
-        "image_4MFEE3",
-        "image_n3gwQq",
         "image_hxNnd8",
+        "image_QPBCCF",
         "image_NTjXDH",
-        "image_mGjJFB",
-        "image_UyK9qr",
         "image_ebqR4A",
         "image_pHa3Ee",
-        "image_ifXQHB",
-        "image_djndeG",
         "image_LeDhHL",
-        "image_QPBCCF",
         "image_zq99Xy",
+        "image_XPX77C",
         "image_MB7xHf",
         "image_39NDki",
         "image_zVghyk",
         "image_fUzjTW",
         "image_RG8NGT",
         "image_x4aWCX",
-        "image_kLkxkY",
         "image_NqKPCD",
-        "image_XPX77C",
         "image_DNf89g",
-        "image_f7qX6H",
-        "image_FEjXnC",
         "image_xrcWyt",
-        "image_7TwfDn",
-        "image_diDAG9",
-        "image_KY4kEb",
-        "image_EAYNeD",
-        "image_aLMPtr"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
-    "gallery_wJKaLV": {
-      "type": "gallery",
-      "blocks": {
-        "image_JNw8A3": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1041.jpg",
-            "title": "Add blocks after this",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_JNw8A3"
+        "image_kLkxkY",
+        "image_yaiUYX",
+        "image_Hpa9gj"
       ],
       "settings": {
         "title": ""
@@ -613,8 +811,8 @@
     "main",
     "featured_collection_Ugfkfg",
     "rich_text_T7UFx7",
-    "gallery_jYyVEq",
     "gallery_wJKaLV",
+    "gallery_jYyVEq",
     "rich_text_UiQYF4",
     "featured_collection_LUNUBH"
   ]

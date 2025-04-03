@@ -27,7 +27,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_7598.jpg",
+        "image": "shopify:\/\/shop_images\/tempImageLSKyL5.jpg",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
@@ -40,25 +40,11 @@
         "show_text_below": false
       }
     },
-    "rich_text_V8FzRX": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Rfemxz": {
-          "type": "heading",
-          "settings": {
-            "heading": "Art Gallery",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Rfemxz"
-      ],
+    "custom_liquid_qLccJM": {
+      "type": "custom-liquid",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "custom_liquid": "<style>\n  .container {\n    display: flex;\n    align-items: center; \/* Center items vertically *\/\n    justify-content: center; \/* Center items horizontally *\/\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n  }\n\n  .description {\n    flex: 1; \/* Take up equal space *\/\n    padding-right: 20px; \/* Add some space between text and video *\/\n    font-family: Arial, sans-serif;\n    line-height: 1.5;\n  }\n\n  .video-container {\n    flex: 1; \/* Take up equal space *\/\n  }\n\n  video {\n    max-width: 100%; \/* Make video responsive *\/\n    border-radius: 8px; \/* Optional: Add rounded corners *\/\n  }\n<\/style>\n\n<div class=\"container\">\n  <div class=\"description\">\n    <h2>BtlModz: Broken Bottle Art<\/h2>\n    <p>\n      Transform shattered glass into stunning works of art! Broken bottle art repurposes fragments into unique sculptures, mosaics, or décor pieces, showcasing creativity and sustainability. \n<br>\nEach piece tells a story, blending the raw beauty of broken edges with intricate designs for a one-of-a-kind creation.\n    <\/p>\n  <\/div>\n  <div class=\"video-container\">\n    <video muted autoplay playsinline loop>\n      <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cd2df28fa00d4d5882af536a82352bfd.mp4\" type=\"video\/mp4\">\n      Your browser does not support the video tag.\n    <\/video>\n  <\/div>\n<\/div>",
         "color_scheme": "",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -66,11 +52,43 @@
     "gallery_UeJeHq": {
       "type": "gallery",
       "blocks": {
-        "image_WKRUDL": {
+        "image_ErTRUr": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ElCieloGoldCanvas_55d7ea8e-522c-476c-b554-66622df1a9f5.png",
-            "title": "El Cielo Gold",
+            "image": "shopify:\/\/shop_images\/IMG_0575.jpg",
+            "title": "Jay z",
+            "description": ""
+          }
+        },
+        "image_jeFD3A": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0544.jpg",
+            "title": "Conor Mcgreor",
+            "description": ""
+          }
+        },
+        "image_cVHjJJ": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1041.jpg",
+            "title": "Triple Threat",
+            "description": ""
+          }
+        },
+        "image_fbQwUT": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0647.jpg",
+            "title": "Ganja Marley",
+            "description": ""
+          }
+        },
+        "image_dFggFV": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HennydUpCanvas.png",
+            "title": "Henny'd Up",
             "description": ""
           }
         },
@@ -87,6 +105,30 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/GSPCanvas.png",
             "title": "Georges Saint Pierre",
+            "description": ""
+          }
+        },
+        "image_KYVG4q": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9134.jpg",
+            "title": "Classic azul",
+            "description": ""
+          }
+        },
+        "image_eJ6XhV": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8860.jpg",
+            "title": "Soprano",
+            "description": ""
+          }
+        },
+        "image_3VyjGU": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HennyCanvas.png",
+            "title": "Pink henny",
             "description": ""
           }
         },
@@ -138,14 +180,6 @@
             "description": ""
           }
         },
-        "image_dFggFV": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HennydUpCanvas.png",
-            "title": "Henny'd Up",
-            "description": ""
-          }
-        },
         "image_emzErV": {
           "type": "Image",
           "settings": {
@@ -162,19 +196,11 @@
             "description": ""
           }
         },
-        "image_KYVG4q": {
+        "image_WKRUDL": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_9134.jpg",
-            "title": "Classic azul",
-            "description": ""
-          }
-        },
-        "image_eJ6XhV": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_8860.jpg",
-            "title": "Soprano",
+            "image": "shopify:\/\/shop_images\/ElCieloGoldCanvas_55d7ea8e-522c-476c-b554-66622df1a9f5.png",
+            "title": "El Cielo Gold",
             "description": ""
           }
         },
@@ -183,22 +209,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_9269.jpg",
             "title": "Custom for Vita Patch company",
-            "description": ""
-          }
-        },
-        "image_fbQwUT": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0647.jpg",
-            "title": "Ganja Marley",
-            "description": ""
-          }
-        },
-        "image_ErTRUr": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0575.jpg",
-            "title": "Jay z",
             "description": ""
           }
         },
@@ -239,14 +249,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_0737.jpg",
             "title": "Avalanche",
-            "description": ""
-          }
-        },
-        "image_jeFD3A": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0544.jpg",
-            "title": "Conor Mcgreor",
             "description": ""
           }
         },
@@ -327,14 +329,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HennydGalaxyCanvas.png",
             "title": "Henny galaxy",
-            "description": ""
-          }
-        },
-        "image_3VyjGU": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HennyCanvas.png",
-            "title": "Pink henny",
             "description": ""
           }
         },
@@ -457,40 +451,34 @@
             "title": "Clean cash",
             "description": ""
           }
-        },
-        "image_cVHjJJ": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1041.jpg",
-            "title": "Triple Threat",
-            "description": ""
-          }
         }
       },
       "block_order": [
-        "image_WKRUDL",
+        "image_ErTRUr",
+        "image_jeFD3A",
+        "image_cVHjJJ",
+        "image_fbQwUT",
+        "image_dFggFV",
         "image_b4BPin",
         "image_AcbB6f",
+        "image_KYVG4q",
+        "image_eJ6XhV",
+        "image_3VyjGU",
         "image_irKBaH",
         "image_BMyKye",
         "image_LEcpz6",
         "image_iWdeVY",
         "image_PgKqyR",
         "image_XDhLfR",
-        "image_dFggFV",
         "image_emzErV",
         "image_JVkFG3",
-        "image_KYVG4q",
-        "image_eJ6XhV",
+        "image_WKRUDL",
         "image_8WJaJH",
-        "image_fbQwUT",
-        "image_ErTRUr",
         "image_WxDL9a",
         "image_deKzBx",
         "image_iWRbeT",
         "image_bNtxgP",
         "image_DyHPgU",
-        "image_jeFD3A",
         "image_nhreGp",
         "image_w6qAgk",
         "image_VYcTEK",
@@ -501,7 +489,6 @@
         "image_mxqnkE",
         "image_ndeNYq",
         "image_47KUUN",
-        "image_3VyjGU",
         "image_Frd4te",
         "image_xGzLfw",
         "image_LkYWPN",
@@ -516,9 +503,73 @@
         "image_LmkVxN",
         "image_VPzEYz",
         "image_c9Db3T",
-        "image_JRHcAg",
-        "image_cVHjJJ"
+        "image_JRHcAg"
       ],
+      "disabled": true,
+      "settings": {
+        "title": ""
+      }
+    },
+    "gallery_YB3rHa": {
+      "type": "gallery",
+      "blocks": {
+        "image_xwR3iG": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/57942CD2-9C54-454C-98C6-7CBCA40843B6.jpg",
+            "title": "Snoop Dogg",
+            "description": ""
+          }
+        },
+        "image_edDMz8": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7A674FF8-27E4-477E-ADF3-1425C70CDE58.jpg",
+            "title": "Team Ferrari",
+            "description": ""
+          }
+        },
+        "image_XDyjcA": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1285.jpg",
+            "title": "Arachnoid",
+            "description": ""
+          }
+        },
+        "image_BhqKUX": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1175.jpg",
+            "title": "Family matters",
+            "description": ""
+          }
+        },
+        "image_6zUnRB": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6504_df78a932-f5a5-4d5b-b94e-c48a4380b585.jpg",
+            "title": "Wedding day",
+            "description": ""
+          }
+        },
+        "image_QiMm3T": {
+          "type": "Image",
+          "settings": {
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xwR3iG",
+        "image_edDMz8",
+        "image_XDyjcA",
+        "image_BhqKUX",
+        "image_6zUnRB",
+        "image_QiMm3T"
+      ],
+      "disabled": true,
       "settings": {
         "title": ""
       }
@@ -541,6 +592,7 @@
       "block_order": [
         "button_eHxC3F"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -548,34 +600,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "featured_collection_FtRW6n": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Exlcusive Frames",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": true,
-        "description_style": "body",
-        "collection": "canvas",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "1717518351fb7892f3": {
@@ -594,14 +618,44 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1732065700d5e75085": {
+      "type": "apps",
+      "blocks": {
+        "swipeup_reels_feed_qGwwMd": {
+          "type": "shopify:\/\/apps\/swipeup\/blocks\/reels-feed\/7b6d7967-af4c-461a-9edb-73155220c3a4",
+          "settings": {
+            "background_color": "transparent",
+            "background_gradient": "",
+            "viewer_default_muted": true,
+            "product_details_enabled": true,
+            "show_discount_badge": true,
+            "show_product_info": true,
+            "autoplay_all": false,
+            "show_playbutton": true,
+            "hide_decimals": false,
+            "shop_button_text": "Shop",
+            "mute_text": "Mute",
+            "unmute_text": "Unmute",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "swipeup_reels_feed_qGwwMd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "image_banner",
-    "rich_text_V8FzRX",
+    "custom_liquid_qLccJM",
     "gallery_UeJeHq",
+    "gallery_YB3rHa",
     "rich_text_Y8dtCp",
-    "featured_collection_FtRW6n",
-    "1717518351fb7892f3"
+    "1717518351fb7892f3",
+    "1732065700d5e75085"
   ]
 }

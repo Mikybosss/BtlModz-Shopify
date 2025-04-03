@@ -3555,3 +3555,7 @@ details-disclosure > details {
   text-decoration: none;
   cursor: pointer;
 }
+.form-text-fields
+{
+  color: red;
+}
